@@ -247,7 +247,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "oom.kicad_pro",
+    "filename": "micro17.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -326,6 +326,22 @@
     [
       "8b0d7f56-1962-40c9-8b95-6d4fe558acbc",
       ""
+    ],
+    [
+      "9f9e0b5b-f07d-4ebd-b315-be375c62719d",
+      "MCU"
+    ],
+    [
+      "026f1c9e-90b7-4566-8140-6cab9a89bcc9",
+      "Power supply"
+    ],
+    [
+      "7637d31f-a3ee-4f29-a821-360137dd6bf9",
+      "Filtering"
+    ],
+    [
+      "13b6b83b-ed33-487f-9920-ee485cde78f6",
+      "Pins"
     ]
   ],
   "text_variables": {}
