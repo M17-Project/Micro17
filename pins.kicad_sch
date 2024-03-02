@@ -1730,6 +1730,108 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x09"
 			(pin_names
 				(offset 1.016) hide)
@@ -2072,7 +2174,7 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_02x20_Counter_Clockwise"
+		(symbol "Connector_Generic:Conn_02x20_Odd_Even"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -2086,7 +2188,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x20_Counter_Clockwise"
+			(property "Value" "Conn_02x20_Odd_Even"
 				(at 1.27 -27.94 0)
 				(effects
 					(font
@@ -2112,7 +2214,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x20, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2139,7 +2241,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x20_Counter_Clockwise_1_1"
+			(symbol "Conn_02x20_Odd_Even_1_1"
 				(rectangle
 					(start -1.27 -25.273)
 					(end 0 -25.527)
@@ -2610,7 +2712,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 7.62 12.7 180)
 					(length 3.81)
 					(name "Pin_10"
 						(effects
@@ -2628,7 +2730,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 10.16 0)
 					(length 3.81)
 					(name "Pin_11"
 						(effects
@@ -2646,7 +2748,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at 7.62 10.16 180)
 					(length 3.81)
 					(name "Pin_12"
 						(effects
@@ -2664,7 +2766,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 0)
+					(at -5.08 7.62 0)
 					(length 3.81)
 					(name "Pin_13"
 						(effects
@@ -2682,7 +2784,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -10.16 0)
+					(at 7.62 7.62 180)
 					(length 3.81)
 					(name "Pin_14"
 						(effects
@@ -2700,7 +2802,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -12.7 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_15"
 						(effects
@@ -2718,7 +2820,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -15.24 0)
+					(at 7.62 5.08 180)
 					(length 3.81)
 					(name "Pin_16"
 						(effects
@@ -2736,7 +2838,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -17.78 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_17"
 						(effects
@@ -2754,7 +2856,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -20.32 0)
+					(at 7.62 2.54 180)
 					(length 3.81)
 					(name "Pin_18"
 						(effects
@@ -2772,7 +2874,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -22.86 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_19"
 						(effects
@@ -2790,7 +2892,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 20.32 0)
+					(at 7.62 22.86 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -2808,7 +2910,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -25.4 0)
+					(at 7.62 0 180)
 					(length 3.81)
 					(name "Pin_20"
 						(effects
@@ -2826,7 +2928,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -25.4 180)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_21"
 						(effects
@@ -2844,7 +2946,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -22.86 180)
+					(at 7.62 -2.54 180)
 					(length 3.81)
 					(name "Pin_22"
 						(effects
@@ -2862,7 +2964,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -20.32 180)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_23"
 						(effects
@@ -2880,7 +2982,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -17.78 180)
+					(at 7.62 -5.08 180)
 					(length 3.81)
 					(name "Pin_24"
 						(effects
@@ -2898,7 +3000,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -15.24 180)
+					(at -5.08 -7.62 0)
 					(length 3.81)
 					(name "Pin_25"
 						(effects
@@ -2916,7 +3018,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -12.7 180)
+					(at 7.62 -7.62 180)
 					(length 3.81)
 					(name "Pin_26"
 						(effects
@@ -2934,7 +3036,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -10.16 180)
+					(at -5.08 -10.16 0)
 					(length 3.81)
 					(name "Pin_27"
 						(effects
@@ -2952,7 +3054,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -7.62 180)
+					(at 7.62 -10.16 180)
 					(length 3.81)
 					(name "Pin_28"
 						(effects
@@ -2970,7 +3072,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -5.08 180)
+					(at -5.08 -12.7 0)
 					(length 3.81)
 					(name "Pin_29"
 						(effects
@@ -2988,7 +3090,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 17.78 0)
+					(at -5.08 20.32 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -3006,7 +3108,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
+					(at 7.62 -12.7 180)
 					(length 3.81)
 					(name "Pin_30"
 						(effects
@@ -3024,7 +3126,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at -5.08 -15.24 0)
 					(length 3.81)
 					(name "Pin_31"
 						(effects
@@ -3042,7 +3144,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 2.54 180)
+					(at 7.62 -15.24 180)
 					(length 3.81)
 					(name "Pin_32"
 						(effects
@@ -3060,7 +3162,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 5.08 180)
+					(at -5.08 -17.78 0)
 					(length 3.81)
 					(name "Pin_33"
 						(effects
@@ -3078,7 +3180,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 7.62 180)
+					(at 7.62 -17.78 180)
 					(length 3.81)
 					(name "Pin_34"
 						(effects
@@ -3096,7 +3198,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 10.16 180)
+					(at -5.08 -20.32 0)
 					(length 3.81)
 					(name "Pin_35"
 						(effects
@@ -3114,7 +3216,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 12.7 180)
+					(at 7.62 -20.32 180)
 					(length 3.81)
 					(name "Pin_36"
 						(effects
@@ -3132,7 +3234,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 15.24 180)
+					(at -5.08 -22.86 0)
 					(length 3.81)
 					(name "Pin_37"
 						(effects
@@ -3150,7 +3252,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 17.78 180)
+					(at 7.62 -22.86 180)
 					(length 3.81)
 					(name "Pin_38"
 						(effects
@@ -3168,7 +3270,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 20.32 180)
+					(at -5.08 -25.4 0)
 					(length 3.81)
 					(name "Pin_39"
 						(effects
@@ -3186,7 +3288,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 15.24 0)
+					(at 7.62 20.32 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -3204,7 +3306,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 22.86 180)
+					(at 7.62 -25.4 180)
 					(length 3.81)
 					(name "Pin_40"
 						(effects
@@ -3222,7 +3324,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 12.7 0)
+					(at -5.08 17.78 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -3240,7 +3342,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 10.16 0)
+					(at 7.62 17.78 180)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -3258,7 +3360,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 7.62 0)
+					(at -5.08 15.24 0)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -3276,7 +3378,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at 7.62 15.24 180)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -3294,7 +3396,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 12.7 0)
 					(length 3.81)
 					(name "Pin_9"
 						(effects
@@ -3869,6 +3971,10 @@
 		(uuid "7d53fdc2-7779-449e-b0d3-27835cdc9c3f")
 	)
 	(no_connect
+		(at 95.25 77.47)
+		(uuid "8b361e88-6a71-41e4-900f-87a7f4938b48")
+	)
+	(no_connect
 		(at 219.71 66.04)
 		(uuid "9398082f-b597-4f21-8e5f-0e4e6cf322d2")
 	)
@@ -3879,10 +3985,6 @@
 	(no_connect
 		(at 219.71 91.44)
 		(uuid "a10290b7-01d3-467c-a722-b3b66706c3d5")
-	)
-	(no_connect
-		(at 82.55 100.33)
-		(uuid "a7880d00-e6f2-4c3f-8faf-145a29a935e9")
 	)
 	(no_connect
 		(at 95.25 52.07)
@@ -4028,6 +4130,28 @@
 			)
 		)
 	)
+	(global_label "PTT_IN"
+		(shape output)
+		(at 73.66 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "169e44cd-2a74-47f6-9254-11baa703db16")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.5667 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BASEBAND_IN"
 		(shape output)
 		(at 130.81 133.35 180)
@@ -4052,7 +4176,7 @@
 	)
 	(global_label "MCU_RX"
 		(shape output)
-		(at 95.25 85.09 0)
+		(at 95.25 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4062,7 +4186,7 @@
 		)
 		(uuid "205c6ced-c6b9-4981-9e85-01e90eb2c771")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.7342 85.09 0)
+			(at 105.7342 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4226,6 +4350,28 @@
 			)
 		)
 	)
+	(global_label "PTT_OUT"
+		(shape input)
+		(at 73.66 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5cb93d08-43f7-43d5-adb2-78bb8ad0dae8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.8734 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CH_Activity"
 		(shape output)
 		(at 219.71 109.22 180)
@@ -4336,6 +4482,28 @@
 			)
 		)
 	)
+	(global_label "AUDIO_IN"
+		(shape output)
+		(at 73.66 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b5189b9b-ea67-467f-8ade-29959bcc6714")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.1475 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BASEBAND_OUT_FILT"
 		(shape input)
 		(at 95.25 82.55 0)
@@ -4382,7 +4550,7 @@
 	)
 	(global_label "MCU_TX"
 		(shape input)
-		(at 95.25 87.63 0)
+		(at 95.25 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4392,7 +4560,7 @@
 		)
 		(uuid "e6648d19-2892-408f-a46d-e92ea42f88fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.4318 87.63 0)
+			(at 105.4318 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4490,6 +4658,28 @@
 			)
 		)
 	)
+	(global_label "AUDIO_OUT_FILT"
+		(shape input)
+		(at 73.66 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ffff8515-70a9-4c5c-b1fe-9f785f3a0a06")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 55.7975 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:+5V")
 		(at 73.66 57.15 90)
@@ -4552,6 +4742,204 @@
 			(project "micro17"
 				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/13b6b83b-ed33-487f-9920-ee485cde78f6"
 					(reference "#PWR069")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VD")
+		(at 73.66 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12e30038-ca76-4396-8257-a02c6bdf4e58")
+		(property "Reference" "#PWR072"
+			(at 77.47 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VD"
+			(at 69.85 121.9199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VD\""
+			(at 73.66 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c39a6a9d-2e72-4a92-8eed-12474d3448ba")
+		)
+		(instances
+			(project "micro17"
+				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/13b6b83b-ed33-487f-9920-ee485cde78f6"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 73.66 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "22a0eb09-8dbe-465a-aba2-334cde9e4ad4")
+		(property "Reference" "TP6"
+			(at 78.74 125.7299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GP"
+			(at 78.74 128.2699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 73.66 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 73.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 73.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 73.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 73.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 73.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 73.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
+			(at 73.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85581719-1abb-43f1-9cfe-333d2b5847bc")
+		)
+		(instances
+			(project "micro17"
+				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/13b6b83b-ed33-487f-9920-ee485cde78f6"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -4703,7 +5091,138 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x20_Counter_Clockwise")
+		(lib_id "Connector:TestPoint")
+		(at 73.66 121.92 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "293f0e37-0b3e-4310-8698-f975447c2a57")
+		(property "Reference" "TP5"
+			(at 78.74 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GP"
+			(at 78.74 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 73.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 73.66 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 73.66 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 73.66 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 73.66 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 73.66 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 73.66 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
+			(at 73.66 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "984d3d15-0667-4ddb-a653-89643853213a")
+		)
+		(instances
+			(project "micro17"
+				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/13b6b83b-ed33-487f-9920-ee485cde78f6"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x20_Odd_Even")
 		(at 90.17 74.93 0)
 		(mirror y)
 		(unit 1)
@@ -4711,9 +5230,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5379ef69-291d-4874-868a-7ef25679d638")
-		(property "Reference" "J5"
+		(uuid "2da519e3-6d2b-47bb-a5aa-435429a20c36")
+		(property "Reference" "J2"
 			(at 88.9 45.72 0)
 			(effects
 				(font
@@ -4729,7 +5247,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Micro17-ICOM_Board:AXK640347YG"
+		(property "Footprint" "micro17:AXK640347YG"
 			(at 90.17 74.93 0)
 			(effects
 				(font
@@ -4747,52 +5265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x20, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 90.17 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 90.17 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 90.17 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 90.17 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 90.17 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
+		(property "Description" "Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 90.17 74.93 0)
 			(effects
 				(font
@@ -4810,8 +5283,166 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" ""
-			(at 90.17 74.93 0)
+		(pin "1"
+			(uuid "20244d58-b779-4ee2-bc73-d3a9099af68f")
+		)
+		(pin "11"
+			(uuid "cd61abdf-bad6-4905-84b6-d901420f3b17")
+		)
+		(pin "13"
+			(uuid "8f1d635c-cc19-4eef-bc1f-576073c8f1ca")
+		)
+		(pin "12"
+			(uuid "ee7ca0db-6816-405a-8774-b698c579a9c3")
+		)
+		(pin "14"
+			(uuid "291f3615-36ec-4395-b217-3b4a5b833e5f")
+		)
+		(pin "15"
+			(uuid "2d68a22b-236a-471a-8b2f-e377a4c2607c")
+		)
+		(pin "10"
+			(uuid "06318473-bc83-4e9d-ac25-08fe7fd2c75a")
+		)
+		(pin "30"
+			(uuid "899087cb-c40b-44d3-8bb1-d46fd9d4d6a4")
+		)
+		(pin "19"
+			(uuid "6834df84-128c-4fde-a4e0-cedb2c04c6cb")
+		)
+		(pin "28"
+			(uuid "d33cdcd2-3d70-4108-bb6b-b5202915b564")
+		)
+		(pin "21"
+			(uuid "2f076705-2759-4e71-8d8b-a00a90672217")
+		)
+		(pin "40"
+			(uuid "03c08527-d351-426b-bd9b-cdcae290185b")
+		)
+		(pin "25"
+			(uuid "b2619241-60f4-4ccb-91bc-124c2a6787b1")
+		)
+		(pin "2"
+			(uuid "976cf7a3-713d-4325-ab94-565c2ad59cf7")
+		)
+		(pin "24"
+			(uuid "0400ce36-f4dc-4cd4-8bd9-83d4e1f670f4")
+		)
+		(pin "37"
+			(uuid "01086c5c-e843-4498-b798-515531e19104")
+		)
+		(pin "38"
+			(uuid "dfcf03e3-226f-4319-ac68-b73ef20d7a80")
+		)
+		(pin "4"
+			(uuid "1cef1e6f-08d7-422d-8b00-069d6cb83311")
+		)
+		(pin "16"
+			(uuid "2a2ad795-e4d8-4cf9-b8f6-79923aa80c39")
+		)
+		(pin "26"
+			(uuid "e9dc5164-3f9a-4744-aa6e-065652587f91")
+		)
+		(pin "8"
+			(uuid "887a7234-26fb-4ef3-97de-170211e346b5")
+		)
+		(pin "17"
+			(uuid "52a76aa4-c5a2-4a91-b4be-0b529e0778cc")
+		)
+		(pin "18"
+			(uuid "31770532-984c-4be7-9259-883c357d5916")
+		)
+		(pin "34"
+			(uuid "08b36803-969d-457b-9c24-cd8faabe7937")
+		)
+		(pin "29"
+			(uuid "2c35ed9b-b16f-4d87-9f0d-51798f685dbd")
+		)
+		(pin "6"
+			(uuid "d411b2fc-d9cd-461a-96ef-9bd2f940742a")
+		)
+		(pin "39"
+			(uuid "4f7deec3-8bf5-474f-8d45-1f1e0f8f0df7")
+		)
+		(pin "22"
+			(uuid "36c74acc-9883-4f35-a4be-3c472bd092ac")
+		)
+		(pin "20"
+			(uuid "9bc57e63-0bf3-462d-b395-493ef457e311")
+		)
+		(pin "35"
+			(uuid "9c25577c-99c7-4bd0-ac3d-73e0cf23d202")
+		)
+		(pin "5"
+			(uuid "46d64676-4554-4f59-83b8-ac35abc90c86")
+		)
+		(pin "7"
+			(uuid "75602ec7-e540-47e9-a819-ea490991a74d")
+		)
+		(pin "9"
+			(uuid "f599b02c-e11b-40ee-b962-6dce3b777ce0")
+		)
+		(pin "27"
+			(uuid "aed7024d-5adf-4c40-8bfa-9b6a91e78c96")
+		)
+		(pin "3"
+			(uuid "57347b4d-6547-49e7-a0fe-530d2ebaf730")
+		)
+		(pin "33"
+			(uuid "17b9595c-9d7c-499a-a900-daa28df4ea89")
+		)
+		(pin "36"
+			(uuid "70b8ddf0-cea2-489b-945b-efdced24e9c4")
+		)
+		(pin "32"
+			(uuid "e21b9101-d1cf-4bd0-91c0-33f24a7ecf37")
+		)
+		(pin "31"
+			(uuid "1049151e-14d0-4c0e-9a81-75b5f943e534")
+		)
+		(pin "23"
+			(uuid "ffc4bd08-e92a-4aed-8066-e5370fd3c867")
+		)
+		(instances
+			(project "micro17"
+				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/13b6b83b-ed33-487f-9920-ee485cde78f6"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 73.66 137.16 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "550d8921-4c27-4aae-bb88-3c049f0dc18b")
+		(property "Reference" "TP8"
+			(at 78.74 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GP"
+			(at 78.74 138.4299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 73.66 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4819,130 +5450,94 @@
 				(hide yes)
 			)
 		)
-		(pin "33"
-			(uuid "b2561106-60bd-47e4-965d-5a699651b7f0")
+		(property "Datasheet" "~"
+			(at 73.66 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "27"
-			(uuid "7a859134-0ceb-4885-8bc4-a4053075ec73")
+		(property "Description" ""
+			(at 73.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "38"
-			(uuid "5f8cb06b-351c-4afb-b75d-bf567eee4649")
+		(property "MPN" ""
+			(at 73.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "32"
-			(uuid "a8887731-c0d2-4e67-9a2f-04dffcec4bd1")
+		(property "Height" ""
+			(at 73.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "3"
-			(uuid "d221b06f-da55-4afd-8aca-372a1cf298e9")
+		(property "Manufacturer_Name" ""
+			(at 73.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "11"
-			(uuid "c28fc070-3a3e-4998-bc53-ca82ff3c92a7")
+		(property "Manufacturer_Part_Number" ""
+			(at 73.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "20"
-			(uuid "0a00a342-1b7b-46ad-89b6-dacb11c443de")
+		(property "Mouser Part Number" ""
+			(at 73.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "22"
-			(uuid "ca50756f-d402-41ca-add3-6dd59de7c22f")
+		(property "Mouser Price/Stock" ""
+			(at 73.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "36"
-			(uuid "58b3e761-4438-4e47-877b-bf3daa5e1ca1")
-		)
-		(pin "26"
-			(uuid "ff9d85b5-a7ec-40be-a717-0e02d6c7b335")
-		)
-		(pin "5"
-			(uuid "fdc7a6af-52e7-45b5-9f97-de867b1bc130")
-		)
-		(pin "6"
-			(uuid "c5fd6c90-5719-4032-bdd7-76a2d575b712")
-		)
-		(pin "35"
-			(uuid "e823d118-ad30-4775-a17b-cefcaa3b57aa")
-		)
-		(pin "13"
-			(uuid "5e52dbf1-dbeb-49c9-9c99-4a74c9666258")
-		)
-		(pin "7"
-			(uuid "2c352bc0-f78f-46fd-a20b-aeb6a1facca3")
-		)
-		(pin "14"
-			(uuid "4a94b5c3-c0f1-4562-a79c-f99aad2d58ea")
-		)
-		(pin "21"
-			(uuid "fc6b6b7e-7016-4e57-97c1-d7adfefae428")
-		)
-		(pin "29"
-			(uuid "7f566187-2e37-4a21-b86f-ad9b76c37b78")
-		)
-		(pin "16"
-			(uuid "02b30cab-9cfd-4ed0-bdd2-963e2837c4e5")
-		)
-		(pin "10"
-			(uuid "ecdfe8ed-a465-40cd-a148-1e1b6fabf236")
-		)
-		(pin "12"
-			(uuid "5b94d55c-265b-48a1-a3e1-998b569a31c2")
-		)
-		(pin "18"
-			(uuid "67fde732-b478-416c-8792-ece3ee6ba8ea")
-		)
-		(pin "2"
-			(uuid "a18e2a3b-e8ce-4870-b64c-f9f3c7172dfe")
-		)
-		(pin "24"
-			(uuid "addb90d7-b344-4b06-8d9f-f4de9a5e9a01")
-		)
-		(pin "28"
-			(uuid "ef8975bb-0833-4b9c-b688-16a68d69db9b")
-		)
-		(pin "30"
-			(uuid "8abcc9d7-71b8-4e9b-aa2e-99a5e1a28563")
-		)
-		(pin "37"
-			(uuid "f13eb33c-e150-4476-b625-3cc9e1fcaf02")
-		)
-		(pin "31"
-			(uuid "3fc590f1-a477-4b29-bbda-0eac01cab88d")
-		)
-		(pin "34"
-			(uuid "b5870e57-b9fa-4982-a2d0-4f71990d584c")
-		)
-		(pin "19"
-			(uuid "403d05db-9038-4e79-93a2-be4d67d2977b")
-		)
-		(pin "39"
-			(uuid "79efab92-8bfc-4abf-b269-fdbcde65dda9")
-		)
-		(pin "23"
-			(uuid "6d553415-1a5f-4ae8-b95d-da6e698a97f9")
-		)
-		(pin "9"
-			(uuid "4b98e309-de3b-4ca8-af03-ada0cdcb6c7c")
-		)
-		(pin "4"
-			(uuid "e258a8da-e81b-4b70-88df-92bbd6d880ce")
-		)
-		(pin "25"
-			(uuid "a028ef03-7954-433a-93c6-7cc2b4d7d662")
-		)
-		(pin "40"
-			(uuid "cbad0de2-ef8d-4ac1-98b5-c0b8a7f67ecd")
-		)
-		(pin "8"
-			(uuid "7999e755-2da1-425e-92ce-8a1406e258f9")
+		(property "JLC" ""
+			(at 73.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "904d6daa-bc9d-4409-b359-cd12bbd13232")
-		)
-		(pin "15"
-			(uuid "faf7844f-7302-44b6-94cf-d13e56652db7")
-		)
-		(pin "17"
-			(uuid "233bd4c5-4c01-49d1-bc5b-ba75754f0c2a")
+			(uuid "6c566e56-602a-4dbb-8eca-1aae432c02b2")
 		)
 		(instances
 			(project "micro17"
 				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/13b6b83b-ed33-487f-9920-ee485cde78f6"
-					(reference "J5")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -5083,6 +5678,137 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 73.66 147.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "6d8946e4-614f-4dba-8173-846168fb9bbb")
+		(property "Reference" "TP10"
+			(at 78.74 146.0499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GP"
+			(at 78.74 148.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 73.66 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 73.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 73.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 73.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 73.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 73.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 73.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
+			(at 73.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c657e0c-ce36-412e-98a3-f692cdb2098a")
+		)
+		(instances
+			(project "micro17"
+				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/13b6b83b-ed33-487f-9920-ee485cde78f6"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5VD")
 		(at 77.47 60.96 90)
 		(unit 1)
@@ -5152,6 +5878,73 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
+		(at 73.66 147.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e69f521-8c06-42b4-8a7d-526ffe8ad43d")
+		(property "Reference" "#PWR073"
+			(at 67.31 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.85 147.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e883c82f-d942-42d2-a5bf-28e3f5996cc3")
+		)
+		(instances
+			(project "micro17"
+				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/13b6b83b-ed33-487f-9920-ee485cde78f6"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
 		(at 95.25 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5211,6 +6004,73 @@
 			(project "micro17"
 				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/13b6b83b-ed33-487f-9920-ee485cde78f6"
 					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 82.55 100.33 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a20c6746-2b37-41a7-9d1c-ae23cfc6446e")
+		(property "Reference" "#PWR071"
+			(at 76.2 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 82.55 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdf2db0f-c30e-430d-b7d5-512b211ef2f1")
+		)
+		(instances
+			(project "micro17"
+				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/13b6b83b-ed33-487f-9920-ee485cde78f6"
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -5345,6 +6205,137 @@
 			(project "micro17"
 				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/13b6b83b-ed33-487f-9920-ee485cde78f6"
 					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 73.66 142.24 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "b1934c5e-917e-4b60-ad40-19bad3edfa06")
+		(property "Reference" "TP9"
+			(at 78.74 140.9699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GP"
+			(at 78.74 143.5099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 73.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 73.66 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 73.66 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 73.66 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 73.66 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 73.66 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 73.66 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
+			(at 73.66 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9352a00-59e4-4c4b-8916-76495b386bbb")
+		)
+		(instances
+			(project "micro17"
+				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/13b6b83b-ed33-487f-9920-ee485cde78f6"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -5846,6 +6837,137 @@
 			(project "micro17"
 				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/13b6b83b-ed33-487f-9920-ee485cde78f6"
 					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 73.66 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "eb8fda9d-e3b8-4263-be23-d070512dbee9")
+		(property "Reference" "TP7"
+			(at 78.74 130.8099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GP"
+			(at 78.74 133.3499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 73.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 73.66 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 73.66 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 73.66 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 73.66 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 73.66 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 73.66 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
+			(at 73.66 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d36b1aa-da4e-4fbc-8ff6-3b5ffb622a6e")
+		)
+		(instances
+			(project "micro17"
+				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/13b6b83b-ed33-487f-9920-ee485cde78f6"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
