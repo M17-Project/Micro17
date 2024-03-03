@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Micro17-ICOM_Board")(type "KiCad")(uri "C:/Users/mike/Desktop/Micro17-ICOM_Board")(options "")(descr "")(disabled))
+  (lib (name "micro17")(type "KiCad")(uri "${KIPRJMOD}/micro17.pretty")(options "")(descr ""))
+)
