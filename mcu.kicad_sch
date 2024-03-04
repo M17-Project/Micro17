@@ -3810,7 +3810,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 99.06) (xy 160.02 99.06)
+			(xy 154.94 99.06) (xy 170.18 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3867,6 +3867,16 @@
 			(type default)
 		)
 		(uuid "915cf20f-2964-4476-8651-e85d4572d206")
+	)
+	(wire
+		(pts
+			(xy 116.84 106.68) (xy 121.92 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93fdb28c-1c21-4357-9aca-e698e1314d5c")
 	)
 	(wire
 		(pts
@@ -4010,7 +4020,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 101.6) (xy 160.02 101.6)
+			(xy 154.94 101.6) (xy 170.18 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4131,7 +4141,7 @@
 		(uuid "1a314cbb-a01b-40d3-9741-46217d3f9d79")
 	)
 	(label "SWCLK"
-		(at 160.02 101.6 0)
+		(at 170.18 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4208,7 +4218,7 @@
 		(uuid "a3ffe563-ec81-4afd-9e01-c549bbc1fbdc")
 	)
 	(label "SWDIO"
-		(at 160.02 99.06 0)
+		(at 170.18 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4495,7 +4505,7 @@
 	)
 	(global_label "AUDIO_OUT_MUTE"
 		(shape output)
-		(at 121.92 106.68 180)
+		(at 116.84 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4505,7 +4515,7 @@
 		)
 		(uuid "a15ee5a0-8e72-4a2c-9559-9983f83c82be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 102.8481 106.68 0)
+			(at 97.7681 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
