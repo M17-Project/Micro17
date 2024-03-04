@@ -5,11 +5,13 @@
 	(uuid "4996f264-b970-4ad0-a49a-fe32200269c8")
 	(paper "A4")
 	(title_block
-		(title "Micro17 - OpenRTX on a Module")
-		(date "05.12.2023")
+		(title "Micro17 - OpenRTX on a Module for Icom Radios")
+		(date "04.03.2024")
 		(rev "A")
 		(company "Wojciech Kaczmarski SP5WWP et al.")
 		(comment 1 "M17 Project, OpenRTX")
+		(comment 2 "Mano ON6RF")
+		(comment 3 "Mutlu TA1MD")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:MCP6002-xMC"
@@ -2600,6 +2602,12 @@
 		)
 	)
 	(junction
+		(at 101.6 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b79ddb3-219c-4f67-a16a-2f7201118499")
+	)
+	(junction
 		(at 220.98 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2642,7 +2650,7 @@
 		(uuid "52c8430d-c970-4659-ae34-7b1daeb3bc5c")
 	)
 	(junction
-		(at 165.1 154.94)
+		(at 158.75 147.32)
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "5a215ce4-5a5e-47fd-b7a6-2587f7ace4e3")
@@ -2652,6 +2660,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6170d2ee-1a02-450e-b2e3-3aad96e4f235")
+	)
+	(junction
+		(at 96.52 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70fc176f-d802-42ab-8b0a-71d693b6b7c9")
 	)
 	(junction
 		(at 60.96 74.93)
@@ -2684,13 +2698,19 @@
 		(uuid "8d8f4500-7250-4970-a728-1bad93c8e9f0")
 	)
 	(junction
+		(at 96.52 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e61ace2-5966-4963-a7af-f89cd328e33d")
+	)
+	(junction
 		(at 210.82 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92d56587-b770-453d-85ab-c492821e00c4")
 	)
 	(junction
-		(at 154.94 154.94)
+		(at 148.59 147.32)
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "9eb108f6-ddef-494f-81df-445fef900fd8")
@@ -2823,7 +2843,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 152.4) (xy 165.1 154.94)
+			(xy 158.75 144.78) (xy 158.75 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2973,16 +2993,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 144.78) (xy 165.1 147.32)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "1e0b9ecc-1982-438b-b8b2-ecab1c1a37e6")
-	)
-	(wire
-		(pts
 			(xy 82.55 118.11) (xy 82.55 130.81)
 		)
 		(stroke
@@ -3063,7 +3073,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 160.02) (xy 119.38 161.29)
+			(xy 119.38 154.94) (xy 119.38 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3160,6 +3170,16 @@
 			(type default)
 		)
 		(uuid "38b8b183-2402-4211-8a66-f4e66e9fe8e1")
+	)
+	(wire
+		(pts
+			(xy 96.52 105.41) (xy 101.6 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38bb91b2-db78-4a23-b664-b64309f97d0e")
 	)
 	(wire
 		(pts
@@ -3370,16 +3390,6 @@
 			(type default)
 		)
 		(uuid "5d8b55ad-6bac-4636-8196-1899470c9883")
-	)
-	(wire
-		(pts
-			(xy 165.1 162.56) (xy 165.1 165.1)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "5e4bcaad-71c4-48c4-a232-5092df7b5722")
 	)
 	(wire
 		(pts
@@ -3663,7 +3673,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 147.955) (xy 119.38 154.94)
+			(xy 119.38 147.955) (xy 119.38 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3713,6 +3723,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 92.71) (xy 96.52 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "924f5ce3-252d-4961-a91b-18cf5a10b4dd")
+	)
+	(wire
+		(pts
 			(xy 67.31 80.01) (xy 67.31 85.09)
 		)
 		(stroke
@@ -3743,17 +3763,17 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 133.35) (xy 148.59 133.35)
+			(xy 96.52 104.14) (xy 96.52 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9edea820-9d17-492d-aafe-21c552aeba76")
+		(uuid "9e4c7680-4128-4aac-9bf3-cac0262e93ed")
 	)
 	(wire
 		(pts
-			(xy 119.38 166.37) (xy 119.38 168.91)
+			(xy 119.38 161.29) (xy 119.38 162.56)
 		)
 		(stroke
 			(width 0)
@@ -3853,7 +3873,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 154.94) (xy 165.1 157.48)
+			(xy 158.75 147.32) (xy 158.75 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3913,7 +3933,17 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 133.35) (xy 154.94 147.32)
+			(xy 96.52 92.71) (xy 101.6 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c193c72e-676c-42ab-a42a-bf79af972dfc")
+	)
+	(wire
+		(pts
+			(xy 148.59 133.35) (xy 148.59 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3983,7 +4013,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 154.94) (xy 165.1 154.94)
+			(xy 148.59 147.32) (xy 158.75 147.32)
 		)
 		(stroke
 			(width 0)
@@ -4123,7 +4153,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 152.4) (xy 154.94 154.94)
+			(xy 148.59 144.78) (xy 148.59 147.32)
 		)
 		(stroke
 			(width 0)
@@ -4143,6 +4173,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 104.14) (xy 101.6 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e686d589-fc0d-4c65-9076-71755fd9e731")
+	)
+	(wire
+		(pts
 			(xy 101.6 130.81) (xy 119.38 130.81)
 		)
 		(stroke
@@ -4150,16 +4190,6 @@
 			(type solid)
 		)
 		(uuid "e811d1dd-eb95-48ae-8948-392858b75c74")
-	)
-	(wire
-		(pts
-			(xy 154.94 162.56) (xy 154.94 165.1)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "e854cfd7-83d3-4ccc-bde6-03af0b387335")
 	)
 	(wire
 		(pts
@@ -4173,7 +4203,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 154.94) (xy 154.94 157.48)
+			(xy 148.59 147.32) (xy 148.59 149.86)
 		)
 		(stroke
 			(width 0)
@@ -4347,7 +4377,7 @@
 	)
 	(global_label "I2C_SDA"
 		(shape bidirectional)
-		(at 170.18 26.67 0)
+		(at 170.18 25.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4357,7 +4387,7 @@
 		)
 		(uuid "1f8cd464-ae47-43a0-bb05-6989ea0666fa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.8965 26.67 0)
+			(at 181.8965 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4435,7 +4465,7 @@
 	)
 	(global_label "AUDIO_IN_FILT"
 		(shape output)
-		(at 96.52 92.71 0)
+		(at 101.6 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4445,7 +4475,7 @@
 		)
 		(uuid "6d884c84-b511-4f99-979c-8b5d0ddfd677")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.6892 92.71 0)
+			(at 117.7692 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4911,7 +4941,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 119.38 157.48 0)
+		(at 119.38 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4919,7 +4949,7 @@
 		(dnp no)
 		(uuid "0665d59d-ab8d-455b-ab48-3da528230f6a")
 		(property "Reference" "R15"
-			(at 121.92 156.21 0)
+			(at 121.92 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4928,7 +4958,7 @@
 			)
 		)
 		(property "Value" "2k2"
-			(at 121.92 158.75 0)
+			(at 121.92 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4937,7 +4967,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 119.38 157.48 0)
+			(at 119.38 152.4 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4946,7 +4976,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 157.48 0)
+			(at 119.38 152.4 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4954,7 +4984,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 157.48 0)
+			(at 119.38 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4963,7 +4993,7 @@
 			)
 		)
 		(property "MPN" "Generic R/2k2/0603"
-			(at 119.38 157.48 0)
+			(at 119.38 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4972,7 +5002,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 119.38 157.48 0)
+			(at 119.38 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4981,7 +5011,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 119.38 157.48 0)
+			(at 119.38 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4990,7 +5020,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 119.38 157.48 0)
+			(at 119.38 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4999,7 +5029,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 119.38 157.48 0)
+			(at 119.38 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5008,7 +5038,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 119.38 157.48 0)
+			(at 119.38 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5017,7 +5047,7 @@
 			)
 		)
 		(property "LCSC" "C102890"
-			(at 119.38 157.48 0)
+			(at 119.38 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5026,7 +5056,7 @@
 			)
 		)
 		(property "JLC" ""
-			(at 119.38 157.48 0)
+			(at 119.38 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5259,7 +5289,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
-		(at 119.38 163.83 0)
+		(at 119.38 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5268,7 +5298,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a41c410-cb4e-4830-aed3-22824ab465ba")
 		(property "Reference" "C26"
-			(at 121.92 162.0139 0)
+			(at 121.92 156.9339 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5277,7 +5307,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 121.92 164.5539 0)
+			(at 121.92 159.4739 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5286,7 +5316,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
-			(at 119.38 163.83 0)
+			(at 119.38 158.75 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5295,7 +5325,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 163.83 0)
+			(at 119.38 158.75 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -5303,7 +5333,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 163.83 0)
+			(at 119.38 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5312,7 +5342,7 @@
 			)
 		)
 		(property "MPN" "T491A226K006AT"
-			(at 119.38 163.83 0)
+			(at 119.38 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5321,7 +5351,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 119.38 163.83 0)
+			(at 119.38 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5330,7 +5360,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 119.38 163.83 0)
+			(at 119.38 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5339,7 +5369,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 119.38 163.83 0)
+			(at 119.38 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5348,7 +5378,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 119.38 163.83 0)
+			(at 119.38 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5357,7 +5387,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 119.38 163.83 0)
+			(at 119.38 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5366,7 +5396,7 @@
 			)
 		)
 		(property "LCSC" "C118989"
-			(at 119.38 163.83 0)
+			(at 119.38 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5375,7 +5405,7 @@
 			)
 		)
 		(property "JLC" ""
-			(at 119.38 163.83 0)
+			(at 119.38 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5778,7 +5808,7 @@
 		(dnp no)
 		(uuid "14737cb6-8855-4af0-b589-3b9e390ace14")
 		(property "Reference" "R18"
-			(at 167.64 16.51 90)
+			(at 164.084 16.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5786,7 +5816,7 @@
 			)
 		)
 		(property "Value" "3k3"
-			(at 167.64 21.59 90)
+			(at 168.91 16.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7508,7 +7538,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 165.1 0)
+		(at 158.75 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7517,7 +7547,7 @@
 		(fields_autoplaced yes)
 		(uuid "30e82f91-ea16-487d-a4e1-39d78575777e")
 		(property "Reference" "#PWR046"
-			(at 165.1 171.45 0)
+			(at 158.75 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7526,7 +7556,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 169.6626 0)
+			(at 158.75 159.5026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7534,7 +7564,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 165.1 0)
+			(at 158.75 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7543,7 +7573,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 165.1 0)
+			(at 158.75 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7552,7 +7582,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 165.1 0)
+			(at 158.75 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7574,7 +7604,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.94 165.1 0)
+		(at 148.59 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7583,7 +7613,7 @@
 		(fields_autoplaced yes)
 		(uuid "39909baa-c231-406c-b286-e2c65a683d36")
 		(property "Reference" "#PWR043"
-			(at 154.94 171.45 0)
+			(at 148.59 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7592,7 +7622,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 169.6626 0)
+			(at 148.59 159.5026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7600,7 +7630,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 165.1 0)
+			(at 148.59 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7609,7 +7639,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 165.1 0)
+			(at 148.59 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7618,7 +7648,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 165.1 0)
+			(at 148.59 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8182,16 +8212,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 165.1 26.67 90)
+		(at 101.6 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "43822a35-cf45-441f-9086-80e1e7b331c9")
-		(property "Reference" "#PWR062"
-			(at 168.91 26.67 0)
+		(uuid "42b29b04-fc47-4091-a8bc-b758e1439b78")
+		(property "Reference" "#PWR074"
+			(at 101.6 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8200,16 +8229,15 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 161.29 26.6699 90)
+			(at 105.156 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 26.67 0)
+			(at 101.6 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8218,7 +8246,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 26.67 0)
+			(at 101.6 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8227,7 +8255,74 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 26.67 0)
+			(at 101.6 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1818c01e-7bba-4b68-870b-f193264beaaf")
+		)
+		(instances
+			(project "micro17"
+				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/7637d31f-a3ee-4f29-a821-360137dd6bf9"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 165.1 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43822a35-cf45-441f-9086-80e1e7b331c9")
+		(property "Reference" "#PWR062"
+			(at 168.91 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 161.29 25.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8315,7 +8410,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 167.64 26.67 90)
+		(at 167.64 25.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8323,7 +8418,7 @@
 		(dnp no)
 		(uuid "492676cb-94ef-4ad6-8b15-227f745de401")
 		(property "Reference" "R19"
-			(at 167.64 24.13 90)
+			(at 164.338 22.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8331,7 +8426,7 @@
 			)
 		)
 		(property "Value" "3k3"
-			(at 167.64 29.21 90)
+			(at 168.91 22.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8339,7 +8434,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 167.64 26.67 0)
+			(at 167.64 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8348,7 +8443,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 26.67 0)
+			(at 167.64 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8357,7 +8452,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 26.67 0)
+			(at 167.64 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8366,7 +8461,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 167.64 26.67 90)
+			(at 167.64 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8375,7 +8470,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 167.64 26.67 0)
+			(at 167.64 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8384,7 +8479,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 167.64 26.67 0)
+			(at 167.64 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8393,7 +8488,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 167.64 26.67 0)
+			(at 167.64 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8402,7 +8497,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 167.64 26.67 0)
+			(at 167.64 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8411,7 +8506,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 167.64 26.67 0)
+			(at 167.64 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8420,7 +8515,7 @@
 			)
 		)
 		(property "LCSC" "C25890"
-			(at 167.64 26.67 0)
+			(at 167.64 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8429,7 +8524,7 @@
 			)
 		)
 		(property "JLC" ""
-			(at 167.64 26.67 0)
+			(at 167.64 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10096,6 +10191,147 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 101.6 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57b6c077-6f07-4745-9899-0c277e2c5d56")
+		(property "Reference" "R26"
+			(at 104.14 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22k"
+			(at 104.14 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "Generic R/22k/0603"
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2909337"
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "972a5639-8012-4ff2-bba8-73151ae17795")
+		)
+		(pin "2"
+			(uuid "59971ad6-8575-4b1b-a1a7-93158dd4298d")
+		)
+		(instances
+			(project "micro17"
+				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/7637d31f-a3ee-4f29-a821-360137dd6bf9"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 148.59 120.65 0)
 		(unit 1)
@@ -10823,6 +11059,147 @@
 			(project "micro17"
 				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/7637d31f-a3ee-4f29-a821-360137dd6bf9"
 					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 101.6 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "758c4317-4980-4e79-9c42-c874d3757dc2")
+		(property "Reference" "R27"
+			(at 104.14 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22k"
+			(at 104.14 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 101.6 107.95 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 107.95 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "Generic R/22k/0603"
+			(at 101.6 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 101.6 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 101.6 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 101.6 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 101.6 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 101.6 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2909337"
+			(at 101.6 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
+			(at 101.6 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9936f71-eef5-4a8b-a67e-2a0edc0f7f22")
+		)
+		(pin "2"
+			(uuid "d8486002-5704-417e-8bf1-efc9d3ef5fe0")
+		)
+		(instances
+			(project "micro17"
+				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/7637d31f-a3ee-4f29-a821-360137dd6bf9"
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -11715,7 +12092,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 165.1 149.86 0)
+		(at 158.75 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11724,7 +12101,7 @@
 		(fields_autoplaced yes)
 		(uuid "9bc08d91-990d-4f1a-b1d5-9a59fc7b32bf")
 		(property "Reference" "R20"
-			(at 167.64 148.59 0)
+			(at 161.29 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11733,7 +12110,7 @@
 			)
 		)
 		(property "Value" "22k"
-			(at 167.64 151.13 0)
+			(at 161.29 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11742,7 +12119,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 165.1 149.86 0)
+			(at 158.75 142.24 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11751,7 +12128,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 149.86 0)
+			(at 158.75 142.24 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11759,7 +12136,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 149.86 0)
+			(at 158.75 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11768,7 +12145,7 @@
 			)
 		)
 		(property "MPN" "Generic R/22k/0603"
-			(at 165.1 149.86 0)
+			(at 158.75 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11777,7 +12154,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 165.1 149.86 0)
+			(at 158.75 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11786,7 +12163,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 165.1 149.86 0)
+			(at 158.75 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11795,7 +12172,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 165.1 149.86 0)
+			(at 158.75 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11804,7 +12181,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 165.1 149.86 0)
+			(at 158.75 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11813,7 +12190,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 165.1 149.86 0)
+			(at 158.75 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11822,7 +12199,7 @@
 			)
 		)
 		(property "LCSC" "C2909337"
-			(at 165.1 149.86 0)
+			(at 158.75 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11831,7 +12208,7 @@
 			)
 		)
 		(property "JLC" ""
-			(at 165.1 149.86 0)
+			(at 158.75 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12613,7 +12990,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 119.38 168.91 0)
+		(at 119.38 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12622,7 +12999,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac6b1048-4dc2-4091-9fcd-245c721ac19a")
 		(property "Reference" "#PWR038"
-			(at 119.38 175.26 0)
+			(at 119.38 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12631,7 +13008,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 119.38 173.4726 0)
+			(at 119.38 167.1226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12639,7 +13016,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 168.91 0)
+			(at 119.38 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12648,7 +13025,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 168.91 0)
+			(at 119.38 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12657,7 +13034,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 168.91 0)
+			(at 119.38 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12949,7 +13326,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 154.94 149.86 0)
+		(at 148.59 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12958,7 +13335,7 @@
 		(fields_autoplaced yes)
 		(uuid "b464bdf3-b893-4209-896d-86d4c5122267")
 		(property "Reference" "R17"
-			(at 157.48 148.59 0)
+			(at 151.13 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12967,7 +13344,7 @@
 			)
 		)
 		(property "Value" "22k"
-			(at 157.48 151.13 0)
+			(at 151.13 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12976,7 +13353,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 154.94 149.86 0)
+			(at 148.59 142.24 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12985,7 +13362,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 149.86 0)
+			(at 148.59 142.24 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12993,7 +13370,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 149.86 0)
+			(at 148.59 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13002,7 +13379,7 @@
 			)
 		)
 		(property "MPN" "Generic R/22k/0603"
-			(at 154.94 149.86 0)
+			(at 148.59 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13011,7 +13388,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 154.94 149.86 0)
+			(at 148.59 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13020,7 +13397,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 154.94 149.86 0)
+			(at 148.59 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13029,7 +13406,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 154.94 149.86 0)
+			(at 148.59 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13038,7 +13415,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 154.94 149.86 0)
+			(at 148.59 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13047,7 +13424,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 154.94 149.86 0)
+			(at 148.59 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13056,7 +13433,7 @@
 			)
 		)
 		(property "LCSC" "C2909337"
-			(at 154.94 149.86 0)
+			(at 148.59 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13065,7 +13442,7 @@
 			)
 		)
 		(property "JLC" ""
-			(at 154.94 149.86 0)
+			(at 148.59 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13098,7 +13475,7 @@
 		(dnp no)
 		(uuid "b527ba7c-0330-4606-b707-f43d955ab96c")
 		(property "Reference" "C29"
-			(at 204.47 87.63 0)
+			(at 203.2 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13107,7 +13484,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 204.47 90.17 0)
+			(at 203.2 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13575,7 +13952,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small")
-		(at 154.94 160.02 0)
+		(at 148.59 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13584,7 +13961,7 @@
 		(fields_autoplaced yes)
 		(uuid "c648612d-bffa-4205-a93f-a4b8788769ae")
 		(property "Reference" "C28"
-			(at 157.48 158.2039 0)
+			(at 151.13 150.5839 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13593,7 +13970,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 157.48 160.7439 0)
+			(at 151.13 153.1239 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13602,7 +13979,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A"
-			(at 154.94 160.02 0)
+			(at 148.59 152.4 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -13611,7 +13988,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 160.02 0)
+			(at 148.59 152.4 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -13619,7 +13996,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 160.02 0)
+			(at 148.59 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13628,7 +14005,7 @@
 			)
 		)
 		(property "MPN" "T491A226K006AT"
-			(at 154.94 160.02 0)
+			(at 148.59 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13637,7 +14014,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 154.94 160.02 0)
+			(at 148.59 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13646,7 +14023,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 154.94 160.02 0)
+			(at 148.59 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13655,7 +14032,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 154.94 160.02 0)
+			(at 148.59 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13664,7 +14041,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 154.94 160.02 0)
+			(at 148.59 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13673,7 +14050,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 154.94 160.02 0)
+			(at 148.59 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13682,7 +14059,7 @@
 			)
 		)
 		(property "LCSC" "C118989"
-			(at 154.94 160.02 0)
+			(at 148.59 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13691,7 +14068,7 @@
 			)
 		)
 		(property "JLC" ""
-			(at 154.94 160.02 0)
+			(at 148.59 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13709,6 +14086,147 @@
 			(project "micro17"
 				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/7637d31f-a3ee-4f29-a821-360137dd6bf9"
 					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 96.52 101.6 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7ca0414-c19c-489b-9cd4-f6bafcf3e79d")
+		(property "Reference" "R28"
+			(at 93.98 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22k"
+			(at 93.98 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 96.52 101.6 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 101.6 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "Generic R/22k/0603"
+			(at 96.52 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 96.52 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 96.52 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 96.52 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 96.52 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 96.52 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2909337"
+			(at 96.52 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
+			(at 96.52 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50e2eb05-36e5-4490-be24-c2c5e44395df")
+		)
+		(pin "2"
+			(uuid "22c7f86e-d855-4f71-a389-e7a758d65f7e")
+		)
+		(instances
+			(project "micro17"
+				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/7637d31f-a3ee-4f29-a821-360137dd6bf9"
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -13923,7 +14441,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 165.1 160.02 0)
+		(at 158.75 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13932,7 +14450,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3b3cd38-9544-449b-b196-7ecec4b1a246")
 		(property "Reference" "R21"
-			(at 167.64 158.75 0)
+			(at 161.29 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13941,7 +14459,7 @@
 			)
 		)
 		(property "Value" "22k"
-			(at 167.64 161.29 0)
+			(at 161.29 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13950,7 +14468,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 165.1 160.02 0)
+			(at 158.75 152.4 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -13959,7 +14477,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 160.02 0)
+			(at 158.75 152.4 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -13967,7 +14485,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 160.02 0)
+			(at 158.75 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13976,7 +14494,7 @@
 			)
 		)
 		(property "MPN" "Generic R/22k/0603"
-			(at 165.1 160.02 0)
+			(at 158.75 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13985,7 +14503,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 165.1 160.02 0)
+			(at 158.75 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13994,7 +14512,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 165.1 160.02 0)
+			(at 158.75 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14003,7 +14521,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 165.1 160.02 0)
+			(at 158.75 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14012,7 +14530,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 165.1 160.02 0)
+			(at 158.75 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14021,7 +14539,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 165.1 160.02 0)
+			(at 158.75 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14030,7 +14548,7 @@
 			)
 		)
 		(property "LCSC" "C2909337"
-			(at 165.1 160.02 0)
+			(at 158.75 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14039,7 +14557,7 @@
 			)
 		)
 		(property "JLC" ""
-			(at 165.1 160.02 0)
+			(at 158.75 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15140,6 +15658,146 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 96.52 107.95 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb6c130c-0b70-4ddf-bf29-2e1c0aa76b3e")
+		(property "Reference" "C12"
+			(at 91.694 107.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220n"
+			(at 91.694 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 96.52 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 96.52 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 96.52 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 96.52 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 96.52 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 96.52 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 96.52 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 96.52 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C192432"
+			(at 96.52 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
+			(at 96.52 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdf74e27-3ff6-42c0-8a56-4c959f4e2d2b")
+		)
+		(pin "2"
+			(uuid "b78ad854-a591-48ed-97cf-171b24cef231")
+		)
+		(instances
+			(project "micro17"
+				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/7637d31f-a3ee-4f29-a821-360137dd6bf9"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 144.78 21.59 0)
 		(unit 1)
@@ -15343,6 +16001,72 @@
 			(project "micro17"
 				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/7637d31f-a3ee-4f29-a821-360137dd6bf9"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1c28add-70f1-43cb-8043-ae3f9f90eaa8")
+		(property "Reference" "#PWR075"
+			(at 101.6 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 114.6231 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa55c654-186f-4e0d-8902-38cca45af3f5")
+		)
+		(instances
+			(project "micro17"
+				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/7637d31f-a3ee-4f29-a821-360137dd6bf9"
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -15695,17 +16419,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 165.1 144.78 0)
+		(lib_id "power:GND")
+		(at 96.52 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe90303a-fec9-4175-9ce2-a16ed88fd920")
-		(property "Reference" "#PWR045"
-			(at 165.1 148.59 0)
+		(uuid "fe32346a-a6ce-4f5d-ac36-209280afb0b8")
+		(property "Reference" "#PWR076"
+			(at 96.52 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15713,16 +16436,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 165.1 140.6469 0)
+		(property "Value" "GND"
+			(at 98.552 114.554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 144.78 0)
+			(at 96.52 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15731,7 +16455,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 144.78 0)
+			(at 96.52 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15740,7 +16464,73 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 144.78 0)
+			(at 96.52 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a03ac15f-8940-4ea6-92d5-275ff44c8d3d")
+		)
+		(instances
+			(project "micro17"
+				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/7637d31f-a3ee-4f29-a821-360137dd6bf9"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 158.75 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe90303a-fec9-4175-9ce2-a16ed88fd920")
+		(property "Reference" "#PWR045"
+			(at 158.75 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 158.75 135.5669 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)

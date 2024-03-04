@@ -5,11 +5,13 @@
 	(uuid "7adf892e-b92d-497d-92e5-c03e31dbb757")
 	(paper "A4")
 	(title_block
-		(title "Micro17 - OpenRTX on a Module")
-		(date "05.12.2023")
+		(title "Micro17 - OpenRTX on a Module for Icom Radios")
+		(date "04.03.2024")
 		(rev "A")
 		(company "Wojciech Kaczmarski SP5WWP et al.")
 		(comment 1 "M17 Project, OpenRTX")
+		(comment 2 "Mano ON6RF")
+		(comment 3 "Mutlu TA1MD")
 	)
 	(lib_symbols
 		(symbol "Device:C_Small"
@@ -796,15 +798,15 @@
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 133.35 99.06 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "21a55a20-ec74-4934-8627-88c9fc07b075")
 		(property "Reference" "C10"
-			(at 136.271 97.8479 0)
+			(at 130.429 97.8479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -813,7 +815,7 @@
 			)
 		)
 		(property "Value" "22u/25V"
-			(at 136.271 100.2721 0)
+			(at 130.429 100.2721 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1078,15 +1080,15 @@
 	(symbol
 		(lib_id "Device:C_Small")
 		(at 119.38 99.06 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6614657e-55d3-40a6-96cb-b13ecbb5fbdc")
 		(property "Reference" "C13"
-			(at 122.301 97.8479 0)
+			(at 116.459 97.8479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1095,7 +1097,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 122.301 100.2721 0)
+			(at 116.459 100.2721 0)
 			(effects
 				(font
 					(size 1.27 1.27)
