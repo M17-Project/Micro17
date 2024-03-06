@@ -5,10 +5,10 @@
 	(uuid "7adf892e-b92d-497d-92e5-c03e31dbb757")
 	(paper "A4")
 	(title_block
-		(title "Micro17 - OpenRTX on a Module for Icom Radios")
-		(date "04.03.2024")
+		(title "Micro17 - OpenRTX on a Module for ICOM radios")
+		(date "06.03.2024")
 		(rev "A")
-		(company "Wojciech Kaczmarski SP5WWP et al.")
+		(company "Wojciech SP5WWP, Mano ON6RF, Mutlu TA1MD et al.")
 		(comment 1 "M17 Project, OpenRTX")
 		(comment 2 "Mano ON6RF")
 		(comment 3 "Mutlu TA1MD")

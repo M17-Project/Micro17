@@ -13944,7 +13944,7 @@
 			)
 		)
 		(property ki_fp_filters "TSSOP*4.4x6.5mm*P0.65mm*")
-		(path "/7637d31f-a3ee-4f29-a821-360137dd6bf9/aac8076c-fa8a-43c9-b345-ef3dc8eb40b5")
+		(path "/7637d31f-a3ee-4f29-a821-360137dd6bf9/da2db221-3b94-4799-978d-d289b40ef3ae")
 		(sheetname "Filtering")
 		(sheetfile "fltrs.kicad_sch")
 		(attr smd)
@@ -30002,7 +30002,7 @@
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(net 99 "unconnected-(J2-Pin_8-Pad8)")
 			(pinfunction "Pin_8")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "f0fdeda1-9bb7-4df3-a52b-c0bf13273c09")
 		)
 		(pad "9" smd rect
@@ -30011,7 +30011,7 @@
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(net 89 "unconnected-(J2-Pin_9-Pad9)")
 			(pinfunction "Pin_9")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "95c32887-06cf-4a9e-bc09-767c98e2fb6a")
 		)
 		(pad "10" smd rect
@@ -30038,7 +30038,7 @@
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(net 84 "unconnected-(J2-Pin_12-Pad12)")
 			(pinfunction "Pin_12")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "8351599f-75a5-46fd-8a3e-b41ce46f4c8e")
 		)
 		(pad "13" smd rect
@@ -30074,7 +30074,7 @@
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(net 95 "unconnected-(J2-Pin_16-Pad16)")
 			(pinfunction "Pin_16")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "c18fc99c-a01e-4487-893f-6ad3c53e2ddb")
 		)
 		(pad "17" smd rect
@@ -30092,7 +30092,7 @@
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(net 97 "unconnected-(J2-Pin_18-Pad18)")
 			(pinfunction "Pin_18")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "cf01dc65-924c-4bd4-b6fc-af5e67d004d5")
 		)
 		(pad "19" smd rect
@@ -30137,7 +30137,7 @@
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(net 78 "unconnected-(J2-Pin_23-Pad23)")
 			(pinfunction "Pin_23")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "514aaf22-dc61-47cc-8fd0-4e97271b8a1d")
 		)
 		(pad "24" smd rect
@@ -30164,7 +30164,7 @@
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(net 100 "unconnected-(J2-Pin_26-Pad26)")
 			(pinfunction "Pin_26")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "f3a4783c-aafb-41e1-9cc4-896236ca68bf")
 		)
 		(pad "27" smd rect
@@ -30182,7 +30182,7 @@
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(net 75 "unconnected-(J2-Pin_28-Pad28)")
 			(pinfunction "Pin_28")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "051ed455-b5ff-4de9-b1d7-9add8b8682e6")
 		)
 		(pad "29" smd rect
@@ -30200,7 +30200,7 @@
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(net 83 "unconnected-(J2-Pin_30-Pad30)")
 			(pinfunction "Pin_30")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "8200bb54-7d85-44ad-a2a2-b17c12028468")
 		)
 		(pad "31" smd rect
@@ -30209,7 +30209,7 @@
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(net 82 "unconnected-(J2-Pin_31-Pad31)")
 			(pinfunction "Pin_31")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "7b3f80e6-0eac-4a00-895e-f3942679f9c6")
 		)
 		(pad "32" smd rect
@@ -30236,7 +30236,7 @@
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(net 92 "unconnected-(J2-Pin_34-Pad34)")
 			(pinfunction "Pin_34")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "a8bf130e-fbee-4a00-9fe8-f75fb8ec3ede")
 		)
 		(pad "35" smd rect
@@ -30245,7 +30245,7 @@
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(net 94 "unconnected-(J2-Pin_35-Pad35)")
 			(pinfunction "Pin_35")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "b1c68977-8c3c-4be0-a6ee-e3b49c5841dc")
 		)
 		(pad "36" smd rect
@@ -30254,7 +30254,7 @@
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(net 80 "unconnected-(J2-Pin_36-Pad36)")
 			(pinfunction "Pin_36")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "606c0664-3c89-400c-a2ef-f885449e199b")
 		)
 		(pad "37" smd rect
@@ -30263,7 +30263,7 @@
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(net 79 "unconnected-(J2-Pin_37-Pad37)")
 			(pinfunction "Pin_37")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "5184a98f-02da-485a-80dc-97f42d83ebcc")
 		)
 		(pad "38" smd rect
@@ -30272,7 +30272,7 @@
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(net 77 "unconnected-(J2-Pin_38-Pad38)")
 			(pinfunction "Pin_38")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "31738264-46c2-4f04-a050-b2dce9603782")
 		)
 		(pad "39" smd rect
@@ -30281,7 +30281,7 @@
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(net 85 "unconnected-(J2-Pin_39-Pad39)")
 			(pinfunction "Pin_39")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "89524207-4c98-4eb7-a8a0-0ff6da5e388d")
 		)
 		(pad "40" smd rect
@@ -30490,7 +30490,7 @@
 		(path "/7637d31f-a3ee-4f29-a821-360137dd6bf9/e5a442ca-3825-4a80-b2d7-f74aa49f67fb")
 		(sheetname "Filtering")
 		(sheetfile "fltrs.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start 0.153641 0.38)
 			(end -0.153641 0.38)
@@ -31796,7 +31796,7 @@
 			(xy 200 80) (xy 200 50)
 		)
 		(height 4.5)
-		(gr_text "30.0000 mm"
+		(gr_text "30,0000 mm"
 			(at 203.35 65 90)
 			(layer "Dwgs.User")
 			(uuid "1c4043c8-0118-427f-bded-b0846922dbbc")
@@ -31829,7 +31829,7 @@
 			(xy 180 80) (xy 200 80)
 		)
 		(height 3.399999)
-		(gr_text "20.0000 mm"
+		(gr_text "20,0000 mm"
 			(at 190 82.249999 0)
 			(layer "Dwgs.User")
 			(uuid "44386c56-3aff-45ec-9d08-e2fa52cc9c2f")

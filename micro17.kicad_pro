@@ -59,10 +59,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "lib_footprint_mismatch|195837500|67800000|089e4bf1-abcb-4723-8bc1-44ace27ec9bd|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|194328703|68008527|300f5aef-bbec-4a1b-9ad9-4c76475697fb|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
