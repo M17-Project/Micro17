@@ -5119,6 +5119,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 187.96 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "85581719-1abb-43f1-9cfe-333d2b5847bc")
 		)
@@ -5232,6 +5241,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 195.58 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 195.58 130.81 0)
 			(effects
 				(font
@@ -5395,6 +5413,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 187.96 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "984d3d15-0667-4ddb-a653-89643853213a")
 		)
@@ -5461,6 +5488,24 @@
 			)
 		)
 		(property "LCSC" "C2936870"
+			(at 87.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 87.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C2936870"
 			(at 87.63 97.79 0)
 			(effects
 				(font
@@ -5709,6 +5754,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 187.96 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 187.96 72.39 0)
 			(effects
 				(font
@@ -5974,6 +6028,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 187.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 187.96 82.55 0)
 			(effects
 				(font
@@ -6515,6 +6578,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 187.96 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c9352a00-59e4-4c4b-8916-76495b386bbb")
 		)
@@ -6625,6 +6697,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 243.84 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 243.84 88.9 0)
 			(effects
 				(font
@@ -7012,6 +7093,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 71.12 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C2971885"
+			(at 71.12 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ab4cfc69-f0a7-455e-b866-048c7f06c59e")
 		)
@@ -7138,6 +7237,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 187.96 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 187.96 67.31 0)
 			(effects
 				(font

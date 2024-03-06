@@ -3387,6 +3387,126 @@
 				)
 			)
 		)
+		(symbol "power:VDDA"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VDDA"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDDA\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VDDA_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDDA_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 207.01 34.29)
@@ -3443,6 +3563,12 @@
 		(uuid "e037a73c-fc42-45f6-84a1-9204abd0516a")
 	)
 	(junction
+		(at 264.16 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e08ff141-bfdd-485e-bfcf-8263eb42d474")
+	)
+	(junction
 		(at 57.15 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3461,20 +3587,12 @@
 		(uuid "1c2f94df-45ff-476c-af2b-d663937b259c")
 	)
 	(no_connect
-		(at 121.92 129.54)
-		(uuid "2368da9d-1584-41b2-a9b6-e83a5b9b417a")
-	)
-	(no_connect
 		(at 121.92 119.38)
 		(uuid "31b745ce-afa1-4133-a3a5-144199f4e68f")
 	)
 	(no_connect
 		(at 121.92 139.7)
 		(uuid "42cc3beb-e624-4661-84c2-0b8d26706dba")
-	)
-	(no_connect
-		(at 121.92 132.08)
-		(uuid "43ae2909-6973-422e-9306-0fc123c58166")
 	)
 	(no_connect
 		(at 121.92 104.14)
@@ -3577,16 +3695,6 @@
 			(type default)
 		)
 		(uuid "115322a5-3720-49e4-8557-469d53bdf590")
-	)
-	(wire
-		(pts
-			(xy 144.78 54.61) (xy 144.78 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "123e0f22-b3a3-4915-b08f-d00fde4b0e97")
 	)
 	(wire
 		(pts
@@ -4248,6 +4356,16 @@
 		)
 		(uuid "fe343178-3534-4609-93c1-9c9c17c03c26")
 	)
+	(text "USART1"
+		(exclude_from_sim no)
+		(at 172.72 90.424 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1f98ba62-60e3-4eda-b714-99f0df97929d")
+	)
 	(text "PA1:ADC12_IN2\nPA2:ADC1_IN3\nPA3:ADC1_IN4, \nPB13:ADC3_IN5\n\nPA4:DAC1_OUT1\nPA5:DAC1_OUT2"
 		(exclude_from_sim no)
 		(at 167.132 56.134 0)
@@ -4268,17 +4386,6 @@
 			(justify right bottom)
 		)
 		(uuid "16d7af51-a24c-4aac-8431-f9da26ea81be")
-	)
-	(label "VDDA"
-		(at 144.78 54.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1a314cbb-a01b-40d3-9741-46217d3f9d79")
 	)
 	(label "SWCLK"
 		(at 170.18 101.6 0)
@@ -4345,17 +4452,6 @@
 			(justify right bottom)
 		)
 		(uuid "9e1762cc-07f4-489d-9318-762738f3cc48")
-	)
-	(label "VDDA"
-		(at 264.16 34.29 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a3ffe563-ec81-4afd-9e01-c549bbc1fbdc")
 	)
 	(label "SWDIO"
 		(at 170.18 99.06 0)
@@ -4577,6 +4673,50 @@
 			)
 		)
 	)
+	(global_label "USART3_RX"
+		(shape input)
+		(at 121.92 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5211ad2b-27ec-4d01-a090-c31d60e0d10e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.412 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USART3_RX"
+		(shape input)
+		(at 95.25 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5ab20805-d2b9-4a43-bd0d-f99e55054be4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.742 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_DN"
 		(shape bidirectional)
 		(at 66.04 146.05 0)
@@ -4612,6 +4752,28 @@
 		(uuid "70607c48-cf00-4b1e-9ad1-86476bf3aa11")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 185.3982 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USART3_TX"
+		(shape output)
+		(at 121.92 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9b352af5-414d-4c85-ac38-c9baace342bc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.7144 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5047,7 +5209,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C102749"
 			(at 104.14 124.46 90)
 			(effects
 				(font
@@ -5111,6 +5273,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 104.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 104.14 124.46 0)
 			(effects
 				(font
@@ -5190,7 +5361,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C170151"
 			(at 195.58 39.37 0)
 			(effects
 				(font
@@ -5254,6 +5425,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 195.58 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 195.58 39.37 0)
 			(effects
 				(font
@@ -5332,7 +5512,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C1559"
 			(at 52.07 63.5 0)
 			(effects
 				(font
@@ -5396,6 +5576,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 52.07 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 52.07 63.5 0)
 			(effects
 				(font
@@ -5536,6 +5725,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 120.65 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "541e50b4-ebdf-4f43-9b21-a98709363f3b")
 		)
@@ -5543,6 +5741,144 @@
 			(project "micro17"
 				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/9f9e0b5b-f07d-4ebd-b315-be375c62719d"
 					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 95.25 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(uuid "14f42f4f-db3b-4f80-bf44-2740c52ad5a4")
+		(property "Reference" "TP14"
+			(at 103.632 132.334 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GP"
+			(at 100.33 133.3499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 95.25 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 95.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 95.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 95.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 95.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 95.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 95.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
+			(at 95.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 95.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76d71ebe-694f-4480-b866-bacc28db30ca")
+		)
+		(instances
+			(project "micro17"
+				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/9f9e0b5b-f07d-4ebd-b315-be375c62719d"
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -5657,6 +5993,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 170.18 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "micro17"
 				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/9f9e0b5b-f07d-4ebd-b315-be375c62719d"
@@ -5670,8 +6015,8 @@
 		(lib_id "Diode:1N4148WS")
 		(at 199.39 91.44 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -5791,6 +6136,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 199.39 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cc668d23-a10f-4fdd-9af2-f5f1e8537a45")
 		)
@@ -5858,7 +6212,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C25752"
 			(at 57.15 104.14 90)
 			(effects
 				(font
@@ -5922,6 +6276,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 57.15 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 57.15 104.14 0)
 			(effects
 				(font
@@ -6123,6 +6486,24 @@
 			)
 		)
 		(property "JLC" ""
+			(at 137.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 137.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C1342773"
 			(at 137.16 106.68 0)
 			(effects
 				(font
@@ -6404,6 +6785,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 132.08 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "072daa6c-fdca-41da-ad14-27eac092cf74")
 		)
@@ -6468,7 +6858,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C25752"
 			(at 115.57 90.17 90)
 			(effects
 				(font
@@ -6532,6 +6922,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 115.57 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 115.57 90.17 0)
 			(effects
 				(font
@@ -6672,6 +7071,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 203.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "17c688ff-8457-4c2b-a175-2c6144c73025")
 		)
@@ -6803,7 +7211,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TX32258M4DBDD2T"
+		(property "MPN" "C5308002"
 			(at 59.69 55.88 0)
 			(effects
 				(font
@@ -6867,6 +7275,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 59.69 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 59.69 55.88 0)
 			(effects
 				(font
@@ -7089,7 +7506,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C56392"
 			(at 240.03 39.37 0)
 			(effects
 				(font
@@ -7161,6 +7578,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 240.03 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "92fb9e82-963f-47f5-9830-aa220bea39cb")
 		)
@@ -7221,6 +7647,15 @@
 			)
 		)
 		(property "Description" "USB Micro Type B connector"
+			(at 58.42 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 58.42 143.51 0)
 			(effects
 				(font
@@ -7393,7 +7828,7 @@
 		(at 101.6 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -7489,6 +7924,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 101.6 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 101.6 36.83 0)
 			(effects
 				(font
@@ -7697,6 +8141,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 158.75 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "micro17"
 				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/9f9e0b5b-f07d-4ebd-b315-be375c62719d"
@@ -7825,7 +8278,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C102749"
 			(at 115.57 93.98 90)
 			(effects
 				(font
@@ -7897,6 +8350,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 115.57 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1f22bf1e-86cb-4730-96c4-b6f3bbb030bc")
 		)
@@ -7907,6 +8369,72 @@
 			(project "micro17"
 				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/9f9e0b5b-f07d-4ebd-b315-be375c62719d"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDDA")
+		(at 264.16 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8bf5aeb1-b2fd-4f93-9ed1-a16f8ab71edc")
+		(property "Reference" "#PWR045"
+			(at 264.16 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 264.16 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+			(at 264.16 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95ce18a8-2e4e-4350-80df-eb0860a228b4")
+		)
+		(instances
+			(project "micro17"
+				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/9f9e0b5b-f07d-4ebd-b315-be375c62719d"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -7968,7 +8496,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C56392"
 			(at 228.6 39.37 0)
 			(effects
 				(font
@@ -8032,6 +8560,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 228.6 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 228.6 39.37 0)
 			(effects
 				(font
@@ -8255,6 +8792,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDDA")
+		(at 144.78 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e92397c-3aa4-4cea-8365-fb31bd22aea1")
+		(property "Reference" "#PWR081"
+			(at 144.78 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 144.78 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+			(at 144.78 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "132cabf5-be0e-4a51-b693-106c144f88a1")
+		)
+		(instances
+			(project "micro17"
+				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/9f9e0b5b-f07d-4ebd-b315-be375c62719d"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 113.03 90.17 270)
 		(unit 1)
@@ -8444,7 +9047,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C56392"
 			(at 207.01 39.37 0)
 			(effects
 				(font
@@ -8508,6 +9111,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 207.01 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 207.01 39.37 0)
 			(effects
 				(font
@@ -8587,7 +9199,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C56392"
 			(at 252.73 39.37 0)
 			(effects
 				(font
@@ -8659,6 +9271,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 252.73 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9cf8ff19-6a47-4473-907b-23faf92136e5")
 		)
@@ -8669,72 +9290,6 @@
 			(project "micro17"
 				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/9f9e0b5b-f07d-4ebd-b315-be375c62719d"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 57.15 88.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b9c2d571-1420-442a-8720-51ae69130502")
-		(property "Reference" "#PWR05"
-			(at 57.15 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 57.15 84.7669 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 57.15 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b8220349-c78f-4a7c-a9e6-b0e57042b070")
-		)
-		(instances
-			(project "micro17"
-				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/9f9e0b5b-f07d-4ebd-b315-be375c62719d"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -8861,7 +9416,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C29266"
 			(at 264.16 39.37 0)
 			(effects
 				(font
@@ -8925,6 +9480,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 264.16 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 264.16 39.37 0)
 			(effects
 				(font
@@ -9001,7 +9565,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C854481"
 			(at 246.38 34.29 90)
 			(effects
 				(font
@@ -9065,6 +9629,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 246.38 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 246.38 34.29 0)
 			(effects
 				(font
@@ -9207,7 +9780,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C4354982"
 			(at 57.15 93.98 90)
 			(effects
 				(font
@@ -9271,6 +9844,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 57.15 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 57.15 93.98 0)
 			(effects
 				(font
@@ -9361,6 +9943,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDDA")
+		(at 57.15 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de971f55-27c1-4cc0-8673-82a8b2c406ac")
+		(property "Reference" "#PWR05"
+			(at 57.15 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 57.15 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+			(at 57.15 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf057cd1-95bd-44ae-96f7-5cdc67394a8d")
+		)
+		(instances
+			(project "micro17"
+				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/9f9e0b5b-f07d-4ebd-b315-be375c62719d"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 66.04 63.5 0)
 		(unit 1)
@@ -9415,7 +10063,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C1559"
 			(at 66.04 63.5 0)
 			(effects
 				(font
@@ -9479,6 +10127,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 66.04 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 66.04 63.5 0)
 			(effects
 				(font
@@ -9691,7 +10348,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C56392"
 			(at 218.44 39.37 0)
 			(effects
 				(font
@@ -9755,6 +10412,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 218.44 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 218.44 39.37 0)
 			(effects
 				(font

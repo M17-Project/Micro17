@@ -2600,6 +2600,126 @@
 				)
 			)
 		)
+		(symbol "power:VDDA"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VDDA"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDDA\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VDDA_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDDA_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 101.6 121.285)
@@ -2843,7 +2963,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 160.655) (xy 158.75 163.195)
+			(xy 158.75 160.02) (xy 158.75 163.195)
 		)
 		(stroke
 			(width 0)
@@ -4173,7 +4293,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 120.015) (xy 101.6 121.285)
+			(xy 101.6 119.38) (xy 101.6 121.285)
 		)
 		(stroke
 			(width 0)
@@ -4670,7 +4790,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C623660"
 			(at 76.2 93.345 0)
 			(effects
 				(font
@@ -4734,6 +4854,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 76.2 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 76.2 93.345 0)
 			(effects
 				(font
@@ -4831,7 +4960,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C623660"
 			(at 181.61 98.425 0)
 			(effects
 				(font
@@ -4895,6 +5024,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 181.61 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 181.61 98.425 0)
 			(effects
 				(font
@@ -4992,7 +5130,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic R/2k2/0603"
+		(property "MPN" "C102890"
 			(at 119.38 168.275 0)
 			(effects
 				(font
@@ -5056,6 +5194,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 119.38 168.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 119.38 168.275 0)
 			(effects
 				(font
@@ -5134,7 +5281,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C56392"
 			(at 261.62 52.705 0)
 			(effects
 				(font
@@ -5198,6 +5345,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 261.62 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 261.62 52.705 0)
 			(effects
 				(font
@@ -5341,7 +5497,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "T491A226K006AT"
+		(property "MPN" "C118989"
 			(at 119.38 174.625 0)
 			(effects
 				(font
@@ -5405,6 +5561,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 119.38 174.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 119.38 174.625 0)
 			(effects
 				(font
@@ -5483,7 +5648,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C623660"
 			(at 228.6 52.705 0)
 			(effects
 				(font
@@ -5547,6 +5712,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 228.6 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 228.6 52.705 0)
 			(effects
 				(font
@@ -5711,7 +5885,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "T491A226K006AT"
+		(property "MPN" "C118989"
 			(at 148.59 144.145 0)
 			(effects
 				(font
@@ -5775,6 +5949,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 148.59 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 148.59 144.145 0)
 			(effects
 				(font
@@ -5850,7 +6033,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C25890"
 			(at 167.64 34.925 90)
 			(effects
 				(font
@@ -5914,6 +6097,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 167.64 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 167.64 34.925 0)
 			(effects
 				(font
@@ -5991,7 +6183,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C60133"
 			(at 66.04 81.915 0)
 			(effects
 				(font
@@ -6055,6 +6247,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 66.04 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 66.04 81.915 0)
 			(effects
 				(font
@@ -6149,7 +6350,7 @@
 		(at 218.44 144.145 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -6246,6 +6447,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 218.44 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 218.44 144.145 0)
 			(effects
 				(font
@@ -6393,7 +6603,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C25783"
 			(at 205.74 98.425 90)
 			(effects
 				(font
@@ -6457,6 +6667,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 205.74 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 205.74 98.425 0)
 			(effects
 				(font
@@ -6598,7 +6817,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C25899"
 			(at 35.56 47.625 90)
 			(effects
 				(font
@@ -6662,6 +6881,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 35.56 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 35.56 47.625 0)
 			(effects
 				(font
@@ -6806,7 +7034,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C623660"
 			(at 251.46 52.705 0)
 			(effects
 				(font
@@ -6870,6 +7098,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 251.46 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 251.46 52.705 0)
 			(effects
 				(font
@@ -7097,6 +7334,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 158.75 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C627257"
+			(at 158.75 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "11"
 			(uuid "7ebd3383-e707-4d95-822b-f781bb2b3b7d")
 		)
@@ -7221,7 +7476,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C284989"
 			(at 60.96 95.885 0)
 			(effects
 				(font
@@ -7285,6 +7540,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 60.96 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 60.96 95.885 0)
 			(effects
 				(font
@@ -7361,7 +7625,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C623660"
 			(at 76.2 50.165 0)
 			(effects
 				(font
@@ -7425,6 +7689,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 76.2 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 76.2 50.165 0)
 			(effects
 				(font
@@ -7787,7 +8060,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C192432"
 			(at 90.17 108.585 0)
 			(effects
 				(font
@@ -7851,6 +8124,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 90.17 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 90.17 108.585 0)
 			(effects
 				(font
@@ -7982,6 +8264,24 @@
 			)
 		)
 		(property "JLC" ""
+			(at 256.54 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 256.54 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C118989"
 			(at 256.54 100.965 0)
 			(effects
 				(font
@@ -8123,7 +8423,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C25890"
 			(at 195.58 98.425 90)
 			(effects
 				(font
@@ -8195,6 +8495,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 195.58 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2add0d2e-456c-4559-98de-b6794687a84f")
 		)
@@ -8205,71 +8514,6 @@
 			(project "micro17"
 				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/7637d31f-a3ee-4f29-a821-360137dd6bf9"
 					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 101.6 114.935 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "42b29b04-fc47-4091-a8bc-b758e1439b78")
-		(property "Reference" "#PWR074"
-			(at 101.6 118.745 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 105.156 112.141 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 114.935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 114.935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 114.935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1818c01e-7bba-4b68-870b-f193264beaaf")
-		)
-		(instances
-			(project "micro17"
-				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/7637d31f-a3ee-4f29-a821-360137dd6bf9"
-					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -8460,7 +8704,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C25890"
 			(at 167.64 41.275 90)
 			(effects
 				(font
@@ -8524,6 +8768,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 167.64 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 167.64 41.275 0)
 			(effects
 				(font
@@ -8665,6 +8918,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 260.35 94.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5f615624-71d6-440e-9f16-98de92e5c8b9")
 		)
@@ -8731,7 +8993,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C1541"
 			(at 220.98 103.505 0)
 			(effects
 				(font
@@ -8795,6 +9057,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 220.98 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 220.98 103.505 0)
 			(effects
 				(font
@@ -8939,7 +9210,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C56392"
 			(at 238.76 52.705 0)
 			(effects
 				(font
@@ -9003,6 +9274,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 238.76 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 238.76 52.705 0)
 			(effects
 				(font
@@ -9136,6 +9416,24 @@
 			)
 		)
 		(property "JLC" ""
+			(at 129.54 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 129.54 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C627257"
 			(at 129.54 52.705 0)
 			(effects
 				(font
@@ -9329,6 +9627,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 58.42 149.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C623660"
+			(at 58.42 149.225 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "72e94883-bc21-47b4-9d7c-9201486c4ae0")
 		)
@@ -9420,7 +9736,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C284989"
 			(at 60.96 52.705 0)
 			(effects
 				(font
@@ -9484,6 +9800,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 60.96 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 60.96 52.705 0)
 			(effects
 				(font
@@ -9628,7 +9953,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C56392"
 			(at 114.3 42.545 0)
 			(effects
 				(font
@@ -9692,6 +10017,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 114.3 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 114.3 42.545 0)
 			(effects
 				(font
@@ -9767,7 +10101,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic R/3k3/0603"
+		(property "MPN" "C25890"
 			(at 99.06 146.685 0)
 			(effects
 				(font
@@ -9831,6 +10165,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 99.06 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 99.06 146.685 0)
 			(effects
 				(font
@@ -9973,6 +10316,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 226.06 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "989b24ce-114e-491f-bd2a-14268284c8d9")
 		)
@@ -10103,7 +10455,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C25754"
 			(at 45.72 47.625 90)
 			(effects
 				(font
@@ -10175,6 +10527,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 45.72 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "936e736a-e8d1-4152-ac02-6eca20e9550b")
 		)
@@ -10192,7 +10553,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 101.6 117.475 0)
+		(at 101.6 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10201,7 +10562,7 @@
 		(fields_autoplaced yes)
 		(uuid "57b6c077-6f07-4745-9899-0c277e2c5d56")
 		(property "Reference" "R26"
-			(at 104.14 116.205 0)
+			(at 104.14 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10210,7 +10571,7 @@
 			)
 		)
 		(property "Value" "22k"
-			(at 104.14 118.745 0)
+			(at 104.14 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10219,7 +10580,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 101.6 117.475 0)
+			(at 101.6 116.84 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10228,7 +10589,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 117.475 0)
+			(at 101.6 116.84 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10236,7 +10597,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 117.475 0)
+			(at 101.6 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10244,8 +10605,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic R/22k/0603"
-			(at 101.6 117.475 0)
+		(property "MPN" "C2909337"
+			(at 101.6 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10254,7 +10615,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 101.6 117.475 0)
+			(at 101.6 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10263,7 +10624,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 101.6 117.475 0)
+			(at 101.6 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10272,7 +10633,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 101.6 117.475 0)
+			(at 101.6 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10281,7 +10642,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 101.6 117.475 0)
+			(at 101.6 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10290,7 +10651,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 101.6 117.475 0)
+			(at 101.6 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10299,7 +10660,7 @@
 			)
 		)
 		(property "LCSC" "C2909337"
-			(at 101.6 117.475 0)
+			(at 101.6 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10308,7 +10669,16 @@
 			)
 		)
 		(property "JLC" ""
-			(at 101.6 117.475 0)
+			(at 101.6 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 101.6 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10449,6 +10819,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 148.59 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "80023e74-0f58-4c28-bf02-537edbbdea2e")
 		)
@@ -10580,6 +10959,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 226.06 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c7c1625b-7eb2-47ae-aa06-77be6798a780")
 		)
@@ -10646,7 +11034,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic C/10nF/C0G/25V/0603"
+		(property "MPN" "C60133"
 			(at 93.98 151.765 0)
 			(effects
 				(font
@@ -10710,6 +11098,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 93.98 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 93.98 151.765 0)
 			(effects
 				(font
@@ -10983,6 +11380,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 144.78 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C102749"
+			(at 144.78 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5a23da71-b650-4de8-9e54-b321ac6691ac")
 		)
@@ -11118,7 +11533,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic R/22k/0603"
+		(property "MPN" "C2909337"
 			(at 101.6 123.825 0)
 			(effects
 				(font
@@ -11182,6 +11597,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 101.6 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 101.6 123.825 0)
 			(effects
 				(font
@@ -11313,6 +11737,24 @@
 			)
 		)
 		(property "JLC" ""
+			(at 58.42 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 58.42 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C60133"
 			(at 58.42 133.985 0)
 			(effects
 				(font
@@ -11454,6 +11896,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 274.32 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C623660"
+			(at 274.32 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f4854bb4-b32f-4667-8f16-d6888f59080a")
 		)
@@ -11486,6 +11946,72 @@
 				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/7637d31f-a3ee-4f29-a821-360137dd6bf9"
 					(reference "U4")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDDA")
+		(at 158.75 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "801efa27-0998-414c-bc53-502254a6405f")
+		(property "Reference" "#PWR082"
+			(at 158.75 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 158.75 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+			(at 158.75 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8915d815-d551-4127-8664-585d5a9ad745")
+		)
+		(instances
+			(project "micro17"
+				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/7637d31f-a3ee-4f29-a821-360137dd6bf9"
+					(reference "#PWR082")
+					(unit 1)
 				)
 			)
 		)
@@ -11729,6 +12255,24 @@
 			)
 		)
 		(property "JLC" ""
+			(at 109.22 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 109.22 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C627257"
 			(at 109.22 161.29 0)
 			(effects
 				(font
@@ -12054,6 +12598,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 129.54 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C623660"
+			(at 129.54 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c88b897c-30f5-4dd8-9476-30e17f9e1543")
 		)
@@ -12092,7 +12654,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 158.75 158.115 0)
+		(at 158.75 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12101,7 +12663,7 @@
 		(fields_autoplaced yes)
 		(uuid "9bc08d91-990d-4f1a-b1d5-9a59fc7b32bf")
 		(property "Reference" "R20"
-			(at 161.29 156.845 0)
+			(at 161.29 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12110,7 +12672,7 @@
 			)
 		)
 		(property "Value" "22k"
-			(at 161.29 159.385 0)
+			(at 161.29 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12119,7 +12681,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 158.75 158.115 0)
+			(at 158.75 157.48 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12128,7 +12690,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 158.115 0)
+			(at 158.75 157.48 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12136,7 +12698,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 158.115 0)
+			(at 158.75 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12144,8 +12706,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic R/22k/0603"
-			(at 158.75 158.115 0)
+		(property "MPN" "C2909337"
+			(at 158.75 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12154,7 +12716,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 158.75 158.115 0)
+			(at 158.75 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12163,7 +12725,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 158.75 158.115 0)
+			(at 158.75 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12172,7 +12734,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 158.75 158.115 0)
+			(at 158.75 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12181,7 +12743,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 158.75 158.115 0)
+			(at 158.75 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12190,7 +12752,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 158.75 158.115 0)
+			(at 158.75 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12199,7 +12761,7 @@
 			)
 		)
 		(property "LCSC" "C2909337"
-			(at 158.75 158.115 0)
+			(at 158.75 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12208,7 +12770,16 @@
 			)
 		)
 		(property "JLC" ""
-			(at 158.75 158.115 0)
+			(at 158.75 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 158.75 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12349,7 +12920,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C623660"
 			(at 241.3 100.965 0)
 			(effects
 				(font
@@ -12413,6 +12984,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 241.3 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 241.3 100.965 0)
 			(effects
 				(font
@@ -12510,7 +13090,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C192432"
 			(at 90.17 65.405 0)
 			(effects
 				(font
@@ -12574,6 +13154,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 90.17 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 90.17 65.405 0)
 			(effects
 				(font
@@ -12649,7 +13238,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C2960875"
 			(at 55.88 47.625 90)
 			(effects
 				(font
@@ -12713,6 +13302,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 55.88 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 55.88 47.625 0)
 			(effects
 				(font
@@ -12911,6 +13509,24 @@
 			)
 		)
 		(property "JLC" ""
+			(at 74.93 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 74.93 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C627257"
 			(at 74.93 65.405 0)
 			(effects
 				(font
@@ -13170,6 +13786,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 77.47 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C3015806"
+			(at 77.47 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8e27c046-12ae-4dfd-9561-fb83ef88f43f")
 		)
@@ -13237,7 +13871,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C23018"
 			(at 215.9 98.425 90)
 			(effects
 				(font
@@ -13301,6 +13935,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 215.9 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 215.9 98.425 0)
 			(effects
 				(font
@@ -13378,7 +14021,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic R/22k/0603"
+		(property "MPN" "C2909337"
 			(at 148.59 158.115 0)
 			(effects
 				(font
@@ -13442,6 +14085,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 148.59 158.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 148.59 158.115 0)
 			(effects
 				(font
@@ -13519,7 +14171,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C60133"
 			(at 200.66 103.505 0)
 			(effects
 				(font
@@ -13583,6 +14235,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 200.66 103.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 200.66 103.505 0)
 			(effects
 				(font
@@ -13658,7 +14319,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic R/39k/0603"
+		(property "MPN" "C25783"
 			(at 88.9 146.685 0)
 			(effects
 				(font
@@ -13722,6 +14383,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 88.9 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 88.9 146.685 0)
 			(effects
 				(font
@@ -13863,7 +14533,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C2960875"
 			(at 55.88 90.805 90)
 			(effects
 				(font
@@ -13927,6 +14597,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 55.88 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 55.88 90.805 0)
 			(effects
 				(font
@@ -14004,7 +14683,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "T491A226K006AT"
+		(property "MPN" "C118989"
 			(at 148.59 168.275 0)
 			(effects
 				(font
@@ -14068,6 +14747,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 148.59 168.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 148.59 168.275 0)
 			(effects
 				(font
@@ -14145,7 +14833,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic R/22k/0603"
+		(property "MPN" "C2909337"
 			(at 96.52 117.475 0)
 			(effects
 				(font
@@ -14209,6 +14897,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 96.52 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 96.52 117.475 0)
 			(effects
 				(font
@@ -14286,7 +14983,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C1541"
 			(at 72.39 151.765 0)
 			(effects
 				(font
@@ -14350,6 +15047,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 72.39 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 72.39 151.765 0)
 			(effects
 				(font
@@ -14493,7 +15199,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "Generic R/22k/0603"
+		(property "MPN" "C2909337"
 			(at 158.75 168.275 0)
 			(effects
 				(font
@@ -14557,6 +15263,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 158.75 168.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 158.75 168.275 0)
 			(effects
 				(font
@@ -14632,7 +15347,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C25754"
 			(at 45.72 90.805 90)
 			(effects
 				(font
@@ -14696,6 +15411,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 45.72 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 45.72 90.805 0)
 			(effects
 				(font
@@ -14835,6 +15559,24 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 215.9 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C60133"
+			(at 215.9 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e11a19c7-04ca-443d-b671-9607e59a945e")
 		)
@@ -14959,6 +15701,24 @@
 			)
 		)
 		(property "JLC" ""
+			(at 74.93 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 74.93 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C627257"
 			(at 74.93 108.585 0)
 			(effects
 				(font
@@ -15158,7 +15918,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C60133"
 			(at 40.64 95.885 0)
 			(effects
 				(font
@@ -15230,6 +15990,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 40.64 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1792b8d8-fd3e-4f98-ae1b-f02243263c5e")
 		)
@@ -15250,7 +16019,7 @@
 		(at 208.28 141.605 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "e5a442ca-3825-4a80-b2d7-f74aa49f67fb")
@@ -15361,6 +16130,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 208.28 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 208.28 141.605 0)
 			(effects
 				(font
@@ -15570,7 +16348,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C60133"
 			(at 66.04 38.735 0)
 			(effects
 				(font
@@ -15634,6 +16412,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 66.04 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 66.04 38.735 0)
 			(effects
 				(font
@@ -15710,7 +16497,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C192432"
 			(at 96.52 123.825 0)
 			(effects
 				(font
@@ -15774,6 +16561,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 96.52 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 96.52 123.825 0)
 			(effects
 				(font
@@ -15919,7 +16715,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C60133"
 			(at 40.64 52.705 0)
 			(effects
 				(font
@@ -15983,6 +16779,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 40.64 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 40.64 52.705 0)
 			(effects
 				(font
@@ -16124,7 +16929,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C25899"
 			(at 35.56 90.805 90)
 			(effects
 				(font
@@ -16188,6 +16993,15 @@
 			)
 		)
 		(property "JLC" ""
+			(at 35.56 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 35.56 90.805 0)
 			(effects
 				(font
@@ -16266,7 +17080,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "C56392"
 			(at 215.9 52.705 0)
 			(effects
 				(font
@@ -16338,6 +17152,15 @@
 				(hide yes)
 			)
 		)
+		(property "PN" ""
+			(at 215.9 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a07eef42-e548-4ae2-b8f1-b9902f36a21a")
 		)
@@ -16348,6 +17171,71 @@
 			(project "micro17"
 				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/7637d31f-a3ee-4f29-a821-360137dd6bf9"
 					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDDA")
+		(at 101.6 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb0e426a-c4ee-4a75-8b5a-50b79dbe75a7")
+		(property "Reference" "#PWR074"
+			(at 101.6 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 105.156 112.268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+			(at 101.6 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5bc0a06-1d31-48c3-b40b-05cbbaedf7b6")
+		)
+		(instances
+			(project "micro17"
+				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/7637d31f-a3ee-4f29-a821-360137dd6bf9"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -16479,72 +17367,6 @@
 			(project "micro17"
 				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/7637d31f-a3ee-4f29-a821-360137dd6bf9"
 					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 158.75 155.575 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe90303a-fec9-4175-9ce2-a16ed88fd920")
-		(property "Reference" "#PWR045"
-			(at 158.75 159.385 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 158.75 151.4419 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 155.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 155.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 155.575 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1a9971fb-da4b-4acd-8050-cd1c560c6080")
-		)
-		(instances
-			(project "micro17"
-				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/7637d31f-a3ee-4f29-a821-360137dd6bf9"
-					(reference "#PWR045")
 					(unit 1)
 				)
 			)

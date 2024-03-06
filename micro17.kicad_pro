@@ -581,13 +581,13 @@
           "group_by": false,
           "label": "JLC",
           "name": "JLC",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "MPN",
           "name": "MPN",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -630,13 +630,19 @@
           "label": "Sim.Pins",
           "name": "Sim.Pins",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PN",
+          "name": "PN",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "PN"
     },
     "connection_grid_size": 50.0,
     "drawing": {
