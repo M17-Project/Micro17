@@ -3758,6 +3758,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 132.08) (xy 121.92 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26382ef5-0c94-4f43-818c-4bd7ca3f0d06")
+	)
+	(wire
+		(pts
 			(xy 207.01 34.29) (xy 195.58 34.29)
 		)
 		(stroke
@@ -4118,6 +4128,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 129.54) (xy 121.92 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afbab3f3-e72e-4849-ac90-8cc640bd74e3")
+	)
+	(wire
+		(pts
 			(xy 195.58 34.29) (xy 195.58 31.75)
 		)
 		(stroke
@@ -4168,7 +4188,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 137.16) (xy 121.92 137.16)
+			(xy 119.38 137.16) (xy 121.92 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4675,7 +4695,7 @@
 	)
 	(global_label "USART3_RX"
 		(shape input)
-		(at 121.92 132.08 180)
+		(at 119.38 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4685,7 +4705,7 @@
 		)
 		(uuid "5211ad2b-27ec-4d01-a090-c31d60e0d10e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.412 132.08 0)
+			(at 105.872 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4697,7 +4717,7 @@
 	)
 	(global_label "USART3_RX"
 		(shape input)
-		(at 95.25 132.08 180)
+		(at 90.17 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4707,7 +4727,7 @@
 		)
 		(uuid "5ab20805-d2b9-4a43-bd0d-f99e55054be4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.742 132.08 0)
+			(at 76.662 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4763,7 +4783,7 @@
 	)
 	(global_label "USART3_TX"
 		(shape output)
-		(at 121.92 129.54 180)
+		(at 119.38 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4773,7 +4793,7 @@
 		)
 		(uuid "9b352af5-414d-4c85-ac38-c9baace342bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.7144 129.54 0)
+			(at 106.1744 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5610,7 +5630,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 120.65 137.16 90)
+		(at 119.38 137.16 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5618,7 +5638,7 @@
 		(dnp yes)
 		(uuid "12f74a18-441f-4cef-9614-ddc2b414de9f")
 		(property "Reference" "TP12"
-			(at 112.268 136.906 90)
+			(at 110.998 136.906 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5626,7 +5646,7 @@
 			)
 		)
 		(property "Value" "GP"
-			(at 115.57 135.8901 90)
+			(at 114.3 135.8901 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5636,7 +5656,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 120.65 132.08 0)
+			(at 119.38 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5645,7 +5665,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 132.08 0)
+			(at 119.38 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5654,7 +5674,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 137.16 0)
+			(at 119.38 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5663,7 +5683,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 120.65 137.16 0)
+			(at 119.38 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5672,7 +5692,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 120.65 137.16 0)
+			(at 119.38 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5681,7 +5701,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 120.65 137.16 0)
+			(at 119.38 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5690,7 +5710,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 120.65 137.16 0)
+			(at 119.38 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5699,7 +5719,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 120.65 137.16 0)
+			(at 119.38 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5708,7 +5728,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 120.65 137.16 0)
+			(at 119.38 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5717,7 +5737,7 @@
 			)
 		)
 		(property "JLC" ""
-			(at 120.65 137.16 0)
+			(at 119.38 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5726,7 +5746,7 @@
 			)
 		)
 		(property "PN" ""
-			(at 120.65 137.16 0)
+			(at 119.38 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6811,9 +6831,9 @@
 		(at 115.57 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "44379678-6a46-4f63-bbec-26eb062fccd4")
 		(property "Reference" "R29"
 			(at 115.57 86.106 90)
@@ -9871,6 +9891,154 @@
 			(project "micro17"
 				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/9f9e0b5b-f07d-4ebd-b315-be375c62719d"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 92.71 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cddd37bd-be2e-4876-ad8e-299ccc40ceda")
+		(property "Reference" "R30"
+			(at 92.71 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 92.71 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 92.71 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C102749"
+			(at 92.71 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 92.71 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 92.71 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 92.71 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 92.71 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 92.71 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C102749"
+			(at 92.71 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
+			(at 92.71 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 92.71 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "532f555b-7c48-4ea6-b862-0d914d070d3a")
+		)
+		(pin "2"
+			(uuid "6d17d49d-2d12-4a6e-b73a-473f9339fd5a")
+		)
+		(instances
+			(project "micro17"
+				(path "/8b0d7f56-1962-40c9-8b95-6d4fe558acbc/9f9e0b5b-f07d-4ebd-b315-be375c62719d"
+					(reference "R30")
 					(unit 1)
 				)
 			)
