@@ -21,7 +21,7 @@ An M17 baseband processor in a small form factor. Similar to
 |Destination callsign (DST)|AT+DST|up to 8 characters long string, eg. "ALL"|
 |Transmit CAN|AT+TXCAN|0..15|
 |Receive CAN|AT+RXCAN|0..15|
-|Enctryption|AT+ENCR|0/1/2|
+|Encryption|AT+ENCR|0/1/2|
 |M17 `META` field|AT+META|raw 112-bit (14-byte) field|
 
 |M17 packet mode|Command|Valid values|
