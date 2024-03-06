@@ -25,3 +25,7 @@ fp-info-cache
 # Exported BOM files
 *.xml
 #*.csv
+\#auto_saved_files\#
+*.lck
+
+AXK640347YG.*
