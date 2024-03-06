@@ -10,8 +10,6 @@
 		(rev "A")
 		(company "Wojciech SP5WWP, Mano ON6RF, Mutlu TA1MD et al.")
 		(comment 1 "M17 Project, OpenRTX")
-		(comment 2 "Mano ON6RF")
-		(comment 3 "Mutlu TA1MD")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x40_Pin"
