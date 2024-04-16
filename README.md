@@ -9,14 +9,14 @@ M17 baseband processor board - OpenRTX on a Module.
 Micro17 is an integrated implementation of Module17. Its PCB design is radio-dependent, but the general schematic is quite close to Module17. 
 For more info about M17 and Module17, please checkout [M17's Website](https://m17project.org/) and [Module17's Github](https://github.com/M17-Project/Module_17) .
 
-## Supported radios -
+## Supported radios - variants
 |Brand/Models|Status|
 |-----------------|-------|
 |[Generic (for all radios, can be used with modwires)](/generic/)|Hardware design WIP|
 |[ICOM IC-F3XXX/4XXX/5XXX/6XXX](/icom_ICF3_4_5_6XXX/)|PoC OK, hardware design finished, fw WIP|
 |[Motorola Waris (GM340/360/etc](/moto_waris/)|PoC OK, hardware design WIP|
 
-## Supporting other models
+## Adding support for other models
 Do you have a radio that could be compatible with such an implementation? 
 Any header (or ribbon cable connector) inside witht he following pins can be used:
  - Flat audio in/out
@@ -26,7 +26,7 @@ Any header (or ribbon cable connector) inside witht he following pins can be use
  - (nice to have) command lines for interfacing with the radio's CPU
  
 Very often, commercial radios with a scrambling board option have such lines inside. A Module17 modem is a perfect base to test a Proof of Concept before starting hardware design.
-When creating a new "version" of Micro17, you can use the "generic" version as a working base, just copy and rename that folder for a new variant.
+When creating a new variant of Micro17, you can use the "generic" variant as a working base, just copy and rename that folder.
 
 ## License
 This work is licensed under a
