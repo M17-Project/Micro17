@@ -3,7 +3,7 @@
 
 # Micro17
 M17 baseband processor board - OpenRTX on a Module.
-![Micro17 connected to an ICOM radio.](/icom_ICF3_4_5_6XXX/icom_micro17_board1.jpg)`
+![Micro17 connected to an ICOM radio.](/icom_ICF3_4_5_6XXX/icom_micro17_board1.jpg)
 
 ## What is this?
 Micro17 is an integrated implementation of Module17. Its PCB design is radio-dependent, but the general schematic is quite close to Module17. 
