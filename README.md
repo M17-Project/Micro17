@@ -14,7 +14,7 @@ For more info about M17 and Module17, please checkout [M17's Website](https://m1
 |-----------------|-------|
 |[Generic (for all radios, can be used with modwires)](/generic/)|Hardware design WIP|
 |[ICOM IC-F3XXX/4XXX/5XXX/6XXX](/icom_ICF3_4_5_6XXX/)|PoC OK, hardware design finished, fw WIP|
-|[Motorola Waris (GM340/360/etc](/moto_waris/)|PoC OK, hardware design WIP|
+|[Motorola Waris (GM340/360/etc.)](/moto_waris/)|PoC OK, hardware design WIP|
 
 ## Adding support for other models
 Do you have a radio that could be compatible with such an implementation? 
