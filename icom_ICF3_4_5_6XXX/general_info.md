@@ -1,4 +1,4 @@
-# General informations about the ICOM IC-FXX6X series of radios
+# General information on ICOM IC-FXX6X radios
 Almost every variation of the IC-FXX6X should be compatible. 
 
 ## Model numbering
@@ -13,16 +13,16 @@ It is composed of 4 digits and one or more letters.
 ### Second digit
 * 0: compatible
 * 1: compatible
-* 2: completely different revision, not compatible
+* 2: __completely different revision, not compatible__
 
 ### Third digit
 Only 6 is compatible
 
 ### Fourth digit
 Market segment: 
-* 1 ==> USA
-* 2 ==> European Market
-* 3 ==> General
+* 1: USA
+* 2: European Market
+* 3: General
 Be careful as there are US market models (suffix "1") that are 450-520, and others 400-470. I've managed to bring 450 models down to 434MHz, but it makes things quite complicated. Identifying them requires checking the FCC ID in the database, it'll give you the frequency range. 
 
 
