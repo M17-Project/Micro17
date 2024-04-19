@@ -1,5 +1,5 @@
 # Micro17 - IC-F3/4/5/6X6X
-Variant of Micro17 for ICOM IC-F commercial radios. Compatible model list is available [here](/icom_ICF3_4_5_6XXX/model_list.md).
+Variant of Micro17 for ICOM IC-F commercial radios. Compatible model list is available [here](/icom_ICF3_4_5_6XXX/general_info.md).
 ![Micro17 connected to an ICOM radio.](/icom_ICF3_4_5_6XXX/icom_micro17_board2.jpg)
 ## Flashing OpenRTX
 WIP - ST-Link needed
