@@ -1,5 +1,5 @@
 # General information on ICOM IC-FXX6X radios
-Almost every variation of the IC-FXX6X should be compatible. 
+Almost every variation of the IC-FXX6X should be compatible with Micro17. 
 
 ## Model numbering
 The model number will help you in identifying which version you have.
