@@ -18,7 +18,7 @@ For more info about M17 and Module17, please checkout [M17's Website](https://m1
 
 ## Adding support for other models
 Do you have a radio that could be compatible with such an implementation? 
-Any header (or ribbon cable connector) inside witht he following pins can be used:
+Any header (or ribbon cable connector) inside with the following pins can be used:
  - Flat audio in/out
  - Micro/Speaker lines
  - PTT in/out
