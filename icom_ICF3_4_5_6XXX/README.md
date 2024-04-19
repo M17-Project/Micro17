@@ -1,5 +1,5 @@
 # Micro17 - IC-F3/4/5/6X6X
-Variant of Micro17 for ICOM IC-F commercial radios.
+Variant of Micro17 for ICOM IC-F commercial radios. Compatible model list is available [here](/icom_ICF3_4_5_6XXX/model_list.md).
 ![Micro17 connected to an ICOM radio.](/icom_ICF3_4_5_6XXX/icom_micro17_board2.jpg)
 ## Flashing OpenRTX
 WIP - ST-Link needed
@@ -15,7 +15,7 @@ You'll need to cut/solder the following bridges:
 You can then install Micro17 in the J1 slot. 
 ![Micro17 connected to an ICOM radio.](/icom_ICF3_4_5_6XXX/icom_micro17_board1.jpg)
 ### Handsets
-Opening a handset is a bit more tricky. You'll need to remove the two knobs, unscrew the antenna nut (either using thin needle-nose pliers or the appropriate tool. Be careful as it might be glued, some light blasting with a heat gun might be needed) and the two bottom screws behind the battery. 
+Opening a handset is a bit trickier. You'll need to remove the two knobs, unscrew the antenna nut (either using thin needle-nose pliers or the appropriate tool. Be careful as it might be glued, some light blasting with a heat gun might be needed) and the two bottom screws behind the battery. 
 The following bridges will have to be changed: 
 * Cut "CP2", "MIC", "AFOUT" and "PTT" 
 * Solder/bridge  "CP3"
