@@ -23,6 +23,7 @@ Market segment:
 * 1: USA
 * 2: European Market
 * 3: General
+  
 Be careful as there are US market models (suffix "1") that are 450-520, and others 400-470. I've managed to bring 450 models down to 434MHz, but it makes things quite complicated. Identifying them requires checking the FCC ID in the database, it'll give you the frequency range. 
 
 
@@ -30,6 +31,7 @@ Be careful as there are US market models (suffix "1") that are 450-520, and othe
 * T: 10-key version
 * S: for a 4 key version
 * D: digital (with an additional UT-126 board for NXDN and dPMR support. Basically the exact same radio with an additional removable board).
+  
 A 4-key version can be case-swapped with a 10 key version without issues. The UT-126 is completely unnecessairy for this M17 mod. Removing it might be a good idea to reduce battery usage. 
 
 
