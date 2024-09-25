@@ -24,8 +24,7 @@ Market segment:
 * 2: European Market
 * 3: General
   
-Be careful as there are US market models (suffix "1") that are 450-520, and others 400-470. I've managed to bring 450 models down to 434MHz, but it makes things quite complicated. Identifying them requires checking the FCC ID in the database, it'll give you the frequency range. 
-
+Be careful as there are US market models (suffix "1") that are 450-520, and others 400-470. I've managed to bring 450 models down to 434MHz, but it makes things quite complicated. Identifying them requires checking the FCC ID in the database, it'll give you the frequency range (handset numbers AFJ289402: 450-520MHz, AFJ289401: 400-470MHz). 
 
 ### Letter suffixes:
 * T: 10-key version
