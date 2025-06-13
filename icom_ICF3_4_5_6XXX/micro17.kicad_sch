@@ -1,12 +1,12 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "8b0d7f56-1962-40c9-8b95-6d4fe558acbc")
 	(paper "A4")
 	(title_block
 		(title "Micro17 - OpenRTX on a Module for ICOM radios")
-		(date "06.03.2024")
+		(date "13.06.2025")
 		(rev "A")
 		(company "Wojciech SP5WWP, Mano ON6RF, Mutlu TA1MD et al.")
 		(comment 1 "M17 Project, OpenRTX")
@@ -15,6 +15,10 @@
 	(sheet
 		(at 63.5 25.4)
 		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -53,6 +57,10 @@
 	(sheet
 		(at 63.5 50.8)
 		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -91,6 +99,10 @@
 	(sheet
 		(at 25.4 50.8)
 		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -129,6 +141,10 @@
 	(sheet
 		(at 25.4 25.4)
 		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -169,4 +185,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
