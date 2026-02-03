@@ -3677,6 +3677,10 @@
 		(uuid "807bfd53-02f8-46b3-b63b-0e974cb28728")
 	)
 	(no_connect
+		(at 121.92 137.16)
+		(uuid "908464e0-a989-4313-aeae-c99f4c344b11")
+	)
+	(no_connect
 		(at 121.92 116.84)
 		(uuid "965795f7-4591-4708-9d7e-b15674d4682d")
 	)
@@ -3990,6 +3994,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 132.08) (xy 121.92 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66430de7-0287-438f-93cf-1759ac2ed049")
+	)
+	(wire
+		(pts
 			(xy 207.01 34.29) (xy 207.01 36.83)
 		)
 		(stroke
@@ -4240,7 +4254,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 137.16) (xy 121.92 137.16)
+			(xy 119.38 129.54) (xy 121.92 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4724,50 +4738,6 @@
 			)
 		)
 	)
-	(global_label "USART3_RX"
-		(shape input)
-		(at 121.92 132.08 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5211ad2b-27ec-4d01-a090-c31d60e0d10e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.412 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USART3_RX"
-		(shape input)
-		(at 95.25 132.08 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5ab20805-d2b9-4a43-bd0d-f99e55054be4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.742 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "USB_DN"
 		(shape bidirectional)
 		(at 66.04 146.05 0)
@@ -4803,28 +4773,6 @@
 		(uuid "70607c48-cf00-4b1e-9ad1-86476bf3aa11")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 185.3982 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USART3_TX"
-		(shape output)
-		(at 121.92 129.54 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9b352af5-414d-4c85-ac38-c9baace342bc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.7144 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5661,7 +5609,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 120.65 137.16 90)
+		(at 119.38 129.54 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5669,7 +5617,7 @@
 		(dnp yes)
 		(uuid "12f74a18-441f-4cef-9614-ddc2b414de9f")
 		(property "Reference" "TP12"
-			(at 112.268 136.906 90)
+			(at 110.998 129.286 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5677,7 +5625,7 @@
 			)
 		)
 		(property "Value" "GP"
-			(at 115.57 135.8901 90)
+			(at 114.3 128.2701 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5687,7 +5635,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 120.65 132.08 0)
+			(at 119.38 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5696,7 +5644,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 132.08 0)
+			(at 119.38 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5705,7 +5653,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 137.16 0)
+			(at 119.38 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5714,7 +5662,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 120.65 137.16 0)
+			(at 119.38 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5723,7 +5671,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 120.65 137.16 0)
+			(at 119.38 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5732,7 +5680,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 120.65 137.16 0)
+			(at 119.38 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5741,7 +5689,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 120.65 137.16 0)
+			(at 119.38 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5750,7 +5698,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 120.65 137.16 0)
+			(at 119.38 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5759,7 +5707,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 120.65 137.16 0)
+			(at 119.38 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5768,7 +5716,7 @@
 			)
 		)
 		(property "JLC" ""
-			(at 120.65 137.16 0)
+			(at 119.38 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5777,7 +5725,7 @@
 			)
 		)
 		(property "PN" ""
-			(at 120.65 137.16 0)
+			(at 119.38 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5799,7 +5747,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 95.25 132.08 270)
+		(at 119.38 132.08 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5807,7 +5755,7 @@
 		(dnp yes)
 		(uuid "14f42f4f-db3b-4f80-bf44-2740c52ad5a4")
 		(property "Reference" "TP14"
-			(at 103.632 132.334 90)
+			(at 110.998 131.826 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5815,7 +5763,7 @@
 			)
 		)
 		(property "Value" "GP"
-			(at 100.33 133.3499 90)
+			(at 114.3 130.8101 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5825,7 +5773,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 95.25 137.16 0)
+			(at 119.38 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5834,7 +5782,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 137.16 0)
+			(at 119.38 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5843,7 +5791,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 132.08 0)
+			(at 119.38 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5852,7 +5800,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 95.25 132.08 0)
+			(at 119.38 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5861,7 +5809,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 95.25 132.08 0)
+			(at 119.38 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5870,7 +5818,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 95.25 132.08 0)
+			(at 119.38 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5879,7 +5827,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 95.25 132.08 0)
+			(at 119.38 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5888,7 +5836,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 95.25 132.08 0)
+			(at 119.38 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5897,7 +5845,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 95.25 132.08 0)
+			(at 119.38 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5906,7 +5854,7 @@
 			)
 		)
 		(property "JLC" ""
-			(at 95.25 132.08 0)
+			(at 119.38 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5915,7 +5863,7 @@
 			)
 		)
 		(property "PN" ""
-			(at 95.25 132.08 0)
+			(at 119.38 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
